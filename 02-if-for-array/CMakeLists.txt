@@ -1,0 +1,5 @@
+add_executable(MinOfTwo MinOfTwo.c)
+add_executable(MinOfThree MinOfThree.c)
+add_executable(LeapYear LeapYear.c)
+add_executable(MinArray MinArray.c)
+add_executable(MinArrayInput MinArrayInput.c)

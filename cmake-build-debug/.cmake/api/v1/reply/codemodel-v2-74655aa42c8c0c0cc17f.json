@@ -1,0 +1,207 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "00-Hello",
+					"jsonFile" : "directory-00-Hello-Debug-617072f2330be94ac3c0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "00-Hello",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"build" : "01-types-io",
+					"jsonFile" : "directory-01-types-io-Debug-10bc91eb8dc14eb1d614.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "01-types-io",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						10,
+						11
+					]
+				},
+				{
+					"build" : "02-if-for-array",
+					"jsonFile" : "directory-02-if-for-array-Debug-92bb9b6a229bb4cd9146.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "02-if-for-array",
+					"targetIndexes" : 
+					[
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "2023_CPL_coding_v1_0",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "AdminScanf::@114c89a78d9eb942a263",
+					"jsonFile" : "target-AdminScanf-Debug-36514c63c83f9b4b753c.json",
+					"name" : "AdminScanf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Administration::@114c89a78d9eb942a263",
+					"jsonFile" : "target-Administration-Debug-4fb25219f3ac8b45c0f3.json",
+					"name" : "Administration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Circle::@114c89a78d9eb942a263",
+					"jsonFile" : "target-Circle-Debug-f3b267a5e509e17a38e2.json",
+					"name" : "Circle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Guess::@0fc9880f443f1eea0558",
+					"jsonFile" : "target-Guess-Debug-0f3c25115c648b57d1b3.json",
+					"name" : "Guess",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Hello::@0fc9880f443f1eea0558",
+					"jsonFile" : "target-Hello-Debug-97a96795551a7546a7ff.json",
+					"name" : "Hello",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "LeapYear::@ba0b5df2441b839870ef",
+					"jsonFile" : "target-LeapYear-Debug-c747b186c75d3ac5e321.json",
+					"name" : "LeapYear",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "MinArray::@ba0b5df2441b839870ef",
+					"jsonFile" : "target-MinArray-Debug-a88a3f89d8baf7daac9b.json",
+					"name" : "MinArray",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "MinArrayInput::@ba0b5df2441b839870ef",
+					"jsonFile" : "target-MinArrayInput-Debug-75b560e4c56792531884.json",
+					"name" : "MinArrayInput",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "MinOfThree::@ba0b5df2441b839870ef",
+					"jsonFile" : "target-MinOfThree-Debug-fe11a4f34529438ac77d.json",
+					"name" : "MinOfThree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "MinOfTwo::@ba0b5df2441b839870ef",
+					"jsonFile" : "target-MinOfTwo-Debug-38d9a75905e65c478d52.json",
+					"name" : "MinOfTwo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Mol::@114c89a78d9eb942a263",
+					"jsonFile" : "target-Mol-Debug-3ce1f42e8c52c54a9b84.json",
+					"name" : "Mol",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Sphere::@114c89a78d9eb942a263",
+					"jsonFile" : "target-Sphere-Debug-b8cd7be93a028b62464a.json",
+					"name" : "Sphere",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/codes/2023_CPL_coding_v1.0/cmake-build-debug",
+		"source" : "D:/codes/2023_CPL_coding_v1.0"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
