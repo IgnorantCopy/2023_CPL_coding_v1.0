@@ -18,3 +18,11 @@ D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/02-if-for-array/CMakeFiles/MinAr
 D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/02-if-for-array/CMakeFiles/MinArrayInput.dir
 D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/02-if-for-array/CMakeFiles/edit_cache.dir
 D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/02-if-for-array/CMakeFiles/rebuild_cache.dir
+D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/03-for-a-while/CMakeFiles/Stars.dir
+D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/03-for-a-while/CMakeFiles/Primes.dir
+D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/03-for-a-while/CMakeFiles/BinarySearch.dir
+D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/03-for-a-while/CMakeFiles/DigitsWhile.dir
+D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/03-for-a-while/CMakeFiles/DigitsDoWhile.dir
+D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/03-for-a-while/CMakeFiles/SelectionSort.dir
+D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/03-for-a-while/CMakeFiles/edit_cache.dir
+D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/03-for-a-while/CMakeFiles/rebuild_cache.dir

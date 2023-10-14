@@ -544,6 +544,232 @@ build 02-if-for-array/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build 02-if-for-array/rebuild_cache: phony 02-if-for-array/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/codes/2023_CPL_coding_v1.0/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Stars
+
+
+#############################################
+# Order-only phony target for Stars
+
+build cmake_object_order_depends_target_Stars: phony || 03-for-a-while/CMakeFiles/Stars.dir
+
+build 03-for-a-while/CMakeFiles/Stars.dir/Stars.c.obj: C_COMPILER__Stars_unscanned_Debug D$:/codes/2023_CPL_coding_v1.0/03-for-a-while/Stars.c || cmake_object_order_depends_target_Stars
+  DEP_FILE = 03-for-a-while\CMakeFiles\Stars.dir\Stars.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = 03-for-a-while\CMakeFiles\Stars.dir
+  OBJECT_FILE_DIR = 03-for-a-while\CMakeFiles\Stars.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Stars
+
+
+#############################################
+# Link the executable 03-for-a-while\Stars.exe
+
+build 03-for-a-while/Stars.exe: C_EXECUTABLE_LINKER__Stars_Debug 03-for-a-while/CMakeFiles/Stars.dir/Stars.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 03-for-a-while\CMakeFiles\Stars.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03-for-a-while\Stars.exe
+  TARGET_IMPLIB = 03-for-a-while\libStars.dll.a
+  TARGET_PDB = Stars.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Primes
+
+
+#############################################
+# Order-only phony target for Primes
+
+build cmake_object_order_depends_target_Primes: phony || 03-for-a-while/CMakeFiles/Primes.dir
+
+build 03-for-a-while/CMakeFiles/Primes.dir/Primes.c.obj: C_COMPILER__Primes_unscanned_Debug D$:/codes/2023_CPL_coding_v1.0/03-for-a-while/Primes.c || cmake_object_order_depends_target_Primes
+  DEP_FILE = 03-for-a-while\CMakeFiles\Primes.dir\Primes.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = 03-for-a-while\CMakeFiles\Primes.dir
+  OBJECT_FILE_DIR = 03-for-a-while\CMakeFiles\Primes.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Primes
+
+
+#############################################
+# Link the executable 03-for-a-while\Primes.exe
+
+build 03-for-a-while/Primes.exe: C_EXECUTABLE_LINKER__Primes_Debug 03-for-a-while/CMakeFiles/Primes.dir/Primes.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 03-for-a-while\CMakeFiles\Primes.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03-for-a-while\Primes.exe
+  TARGET_IMPLIB = 03-for-a-while\libPrimes.dll.a
+  TARGET_PDB = Primes.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target BinarySearch
+
+
+#############################################
+# Order-only phony target for BinarySearch
+
+build cmake_object_order_depends_target_BinarySearch: phony || 03-for-a-while/CMakeFiles/BinarySearch.dir
+
+build 03-for-a-while/CMakeFiles/BinarySearch.dir/BinarySearch.c.obj: C_COMPILER__BinarySearch_unscanned_Debug D$:/codes/2023_CPL_coding_v1.0/03-for-a-while/BinarySearch.c || cmake_object_order_depends_target_BinarySearch
+  DEP_FILE = 03-for-a-while\CMakeFiles\BinarySearch.dir\BinarySearch.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = 03-for-a-while\CMakeFiles\BinarySearch.dir
+  OBJECT_FILE_DIR = 03-for-a-while\CMakeFiles\BinarySearch.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BinarySearch
+
+
+#############################################
+# Link the executable 03-for-a-while\BinarySearch.exe
+
+build 03-for-a-while/BinarySearch.exe: C_EXECUTABLE_LINKER__BinarySearch_Debug 03-for-a-while/CMakeFiles/BinarySearch.dir/BinarySearch.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 03-for-a-while\CMakeFiles\BinarySearch.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03-for-a-while\BinarySearch.exe
+  TARGET_IMPLIB = 03-for-a-while\libBinarySearch.dll.a
+  TARGET_PDB = BinarySearch.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target DigitsWhile
+
+
+#############################################
+# Order-only phony target for DigitsWhile
+
+build cmake_object_order_depends_target_DigitsWhile: phony || 03-for-a-while/CMakeFiles/DigitsWhile.dir
+
+build 03-for-a-while/CMakeFiles/DigitsWhile.dir/DigitsWhile.c.obj: C_COMPILER__DigitsWhile_unscanned_Debug D$:/codes/2023_CPL_coding_v1.0/03-for-a-while/DigitsWhile.c || cmake_object_order_depends_target_DigitsWhile
+  DEP_FILE = 03-for-a-while\CMakeFiles\DigitsWhile.dir\DigitsWhile.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = 03-for-a-while\CMakeFiles\DigitsWhile.dir
+  OBJECT_FILE_DIR = 03-for-a-while\CMakeFiles\DigitsWhile.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DigitsWhile
+
+
+#############################################
+# Link the executable 03-for-a-while\DigitsWhile.exe
+
+build 03-for-a-while/DigitsWhile.exe: C_EXECUTABLE_LINKER__DigitsWhile_Debug 03-for-a-while/CMakeFiles/DigitsWhile.dir/DigitsWhile.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 03-for-a-while\CMakeFiles\DigitsWhile.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03-for-a-while\DigitsWhile.exe
+  TARGET_IMPLIB = 03-for-a-while\libDigitsWhile.dll.a
+  TARGET_PDB = DigitsWhile.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target DigitsDoWhile
+
+
+#############################################
+# Order-only phony target for DigitsDoWhile
+
+build cmake_object_order_depends_target_DigitsDoWhile: phony || 03-for-a-while/CMakeFiles/DigitsDoWhile.dir
+
+build 03-for-a-while/CMakeFiles/DigitsDoWhile.dir/DigitsDoWhile.c.obj: C_COMPILER__DigitsDoWhile_unscanned_Debug D$:/codes/2023_CPL_coding_v1.0/03-for-a-while/DigitsDoWhile.c || cmake_object_order_depends_target_DigitsDoWhile
+  DEP_FILE = 03-for-a-while\CMakeFiles\DigitsDoWhile.dir\DigitsDoWhile.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = 03-for-a-while\CMakeFiles\DigitsDoWhile.dir
+  OBJECT_FILE_DIR = 03-for-a-while\CMakeFiles\DigitsDoWhile.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DigitsDoWhile
+
+
+#############################################
+# Link the executable 03-for-a-while\DigitsDoWhile.exe
+
+build 03-for-a-while/DigitsDoWhile.exe: C_EXECUTABLE_LINKER__DigitsDoWhile_Debug 03-for-a-while/CMakeFiles/DigitsDoWhile.dir/DigitsDoWhile.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 03-for-a-while\CMakeFiles\DigitsDoWhile.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03-for-a-while\DigitsDoWhile.exe
+  TARGET_IMPLIB = 03-for-a-while\libDigitsDoWhile.dll.a
+  TARGET_PDB = DigitsDoWhile.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SelectionSort
+
+
+#############################################
+# Order-only phony target for SelectionSort
+
+build cmake_object_order_depends_target_SelectionSort: phony || 03-for-a-while/CMakeFiles/SelectionSort.dir
+
+build 03-for-a-while/CMakeFiles/SelectionSort.dir/SelectionSort.c.obj: C_COMPILER__SelectionSort_unscanned_Debug D$:/codes/2023_CPL_coding_v1.0/03-for-a-while/SelectionSort.c || cmake_object_order_depends_target_SelectionSort
+  DEP_FILE = 03-for-a-while\CMakeFiles\SelectionSort.dir\SelectionSort.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = 03-for-a-while\CMakeFiles\SelectionSort.dir
+  OBJECT_FILE_DIR = 03-for-a-while\CMakeFiles\SelectionSort.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SelectionSort
+
+
+#############################################
+# Link the executable 03-for-a-while\SelectionSort.exe
+
+build 03-for-a-while/SelectionSort.exe: C_EXECUTABLE_LINKER__SelectionSort_Debug 03-for-a-while/CMakeFiles/SelectionSort.dir/SelectionSort.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 03-for-a-while\CMakeFiles\SelectionSort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03-for-a-while\SelectionSort.exe
+  TARGET_IMPLIB = 03-for-a-while\libSelectionSort.dll.a
+  TARGET_PDB = SelectionSort.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build 03-for-a-while/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\codes\2023_CPL_coding_v1.0\cmake-build-debug\03-for-a-while && "D:\Program Files\apps\CLion\ch-0\232.9921.42\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 03-for-a-while/edit_cache: phony 03-for-a-while/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 03-for-a-while/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\codes\2023_CPL_coding_v1.0\cmake-build-debug\03-for-a-while && "D:\Program Files\apps\CLion\ch-0\232.9921.42\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\codes\2023_CPL_coding_v1.0 -BD:\codes\2023_CPL_coding_v1.0\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 03-for-a-while/rebuild_cache: phony 03-for-a-while/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build AdminScanf: phony 01-types-io/AdminScanf.exe
@@ -554,9 +780,21 @@ build Administration: phony 01-types-io/Administration.exe
 
 build Administration.exe: phony 01-types-io/Administration.exe
 
+build BinarySearch: phony 03-for-a-while/BinarySearch.exe
+
+build BinarySearch.exe: phony 03-for-a-while/BinarySearch.exe
+
 build Circle: phony 01-types-io/Circle.exe
 
 build Circle.exe: phony 01-types-io/Circle.exe
+
+build DigitsDoWhile: phony 03-for-a-while/DigitsDoWhile.exe
+
+build DigitsDoWhile.exe: phony 03-for-a-while/DigitsDoWhile.exe
+
+build DigitsWhile: phony 03-for-a-while/DigitsWhile.exe
+
+build DigitsWhile.exe: phony 03-for-a-while/DigitsWhile.exe
 
 build Guess: phony 00-Hello/Guess.exe
 
@@ -590,9 +828,21 @@ build Mol: phony 01-types-io/Mol.exe
 
 build Mol.exe: phony 01-types-io/Mol.exe
 
+build Primes: phony 03-for-a-while/Primes.exe
+
+build Primes.exe: phony 03-for-a-while/Primes.exe
+
+build SelectionSort: phony 03-for-a-while/SelectionSort.exe
+
+build SelectionSort.exe: phony 03-for-a-while/SelectionSort.exe
+
 build Sphere: phony 01-types-io/Sphere.exe
 
 build Sphere.exe: phony 01-types-io/Sphere.exe
+
+build Stars: phony 03-for-a-while/Stars.exe
+
+build Stars.exe: phony 03-for-a-while/Stars.exe
 
 # =============================================================================
 # Folder targets.
@@ -602,7 +852,7 @@ build Sphere.exe: phony 01-types-io/Sphere.exe
 #############################################
 # Folder: D:/codes/2023_CPL_coding_v1.0/cmake-build-debug
 
-build all: phony 00-Hello/all 01-types-io/all 02-if-for-array/all
+build all: phony 00-Hello/all 01-types-io/all 02-if-for-array/all 03-for-a-while/all
 
 # =============================================================================
 
@@ -626,20 +876,27 @@ build 01-types-io/all: phony 01-types-io/Circle.exe 01-types-io/Sphere.exe 01-ty
 build 02-if-for-array/all: phony 02-if-for-array/MinOfTwo.exe 02-if-for-array/MinOfThree.exe 02-if-for-array/LeapYear.exe 02-if-for-array/MinArray.exe 02-if-for-array/MinArrayInput.exe
 
 # =============================================================================
+
+#############################################
+# Folder: D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/03-for-a-while
+
+build 03-for-a-while/all: phony 03-for-a-while/Stars.exe 03-for-a-while/Primes.exe 03-for-a-while/BinarySearch.exe 03-for-a-while/DigitsWhile.exe 03-for-a-while/DigitsDoWhile.exe 03-for-a-while/SelectionSort.exe
+
+# =============================================================================
 # Built-in targets
 
 
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake D$:/codes/2023_CPL_coding_v1.0/00-Hello/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/01-types-io/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/02-if-for-array/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake D$:/codes/2023_CPL_coding_v1.0/00-Hello/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/01-types-io/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/02-if-for-array/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/03-for-a-while/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake D$:/codes/2023_CPL_coding_v1.0/00-Hello/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/01-types-io/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/02-if-for-array/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/CMakeLists.txt: phony
+build CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake D$:/codes/2023_CPL_coding_v1.0/00-Hello/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/01-types-io/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/02-if-for-array/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/03-for-a-while/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/CMakeLists.txt: phony
 
 
 #############################################

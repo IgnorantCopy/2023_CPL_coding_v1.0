@@ -1,0 +1,6 @@
+add_executable(Stars Stars.c)
+add_executable(Primes Primes.c)
+add_executable(BinarySearch BinarySearch.c)
+add_executable(DigitsWhile DigitsWhile.c)
+add_executable(DigitsDoWhile DigitsDoWhile.c)
+add_executable(SelectionSort SelectionSort.c)
