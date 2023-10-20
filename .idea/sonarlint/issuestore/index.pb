@@ -47,3 +47,9 @@ N
 03-for-a-while/DigitsDoWhile.c,2\2\22268ab0a44053509dce389d330aaae02e3bca3d
 N
 03-for-a-while/SelectionSort.c,a\0\a03c8e8e804fe7386b0ce1435f87dd17d2b914d2
+G
+04-loops/CMakeLists.txt,0\f\0f5f2ed1d266c69d03fb25f0b5422e1b2c5cda1f
+E
+04-loops/GameOfLife.c,a\d\ad43a8588d127371129c56a8e69784ff2f1d04d0
+@
+04-loops/Merge.c,7\3\7372c3977ffc0d56149a82e079c9cfa38587af5d

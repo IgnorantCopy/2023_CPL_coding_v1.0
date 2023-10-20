@@ -8,12 +8,18 @@
 int nums[LEN] = {0};
 
 int main() {
+    setvbuf(stdout, NULL, _IONBF, 0);  //取消缓冲区
     int index = -1;
-    while (scanf("%d", &nums[++index]) != EOF);
+    int returnValue;
+    while ((returnValue = scanf("%d", &nums[++index])) != EOF) {
+        printf("return value = %d\n", returnValue);
+    }
     /*
      * the output of scanf():
      *  1.input failure: EOF or end of file(-1)
      *  2.match failure: numbers of matched items
+     * the input of scanf():
+     *  1.data stream: line by line
      * about cache region(缓存区):
      *  1.Linux: Ctrl+D submit the cache
      *  2.Windows: Ctrl+Z submit the cache(need gcc)

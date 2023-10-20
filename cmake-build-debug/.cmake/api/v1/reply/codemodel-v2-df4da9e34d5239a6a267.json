@@ -11,7 +11,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -33,8 +34,8 @@
 					"source" : "00-Hello",
 					"targetIndexes" : 
 					[
-						6,
-						7
+						7,
+						8
 					]
 				},
 				{
@@ -52,8 +53,8 @@
 						0,
 						1,
 						3,
-						13,
-						16
+						15,
+						18
 					]
 				},
 				{
@@ -68,11 +69,11 @@
 					"source" : "02-if-for-array",
 					"targetIndexes" : 
 					[
-						8,
 						9,
-						10,
 						11,
-						12
+						12,
+						13,
+						14
 					]
 				},
 				{
@@ -90,9 +91,25 @@
 						2,
 						4,
 						5,
-						14,
-						15,
-						17
+						16,
+						17,
+						19
+					]
+				},
+				{
+					"build" : "04-loops",
+					"jsonFile" : "directory-04-loops-Debug-5a8e1ae8fc0d630689a1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "04-loops",
+					"targetIndexes" : 
+					[
+						6,
+						10
 					]
 				}
 			],
@@ -106,7 +123,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					],
 					"name" : "2023_CPL_coding_v1_0",
 					"targetIndexes" : 
@@ -128,7 +146,9 @@
 						14,
 						15,
 						16,
-						17
+						17,
+						18,
+						19
 					]
 				}
 			],
@@ -177,6 +197,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 5,
+					"id" : "GameOfLife::@0aa9293b8f4ac4783393",
+					"jsonFile" : "target-GameOfLife-Debug-6c53949cbf9813098ee6.json",
+					"name" : "GameOfLife",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 1,
 					"id" : "Guess::@0fc9880f443f1eea0558",
 					"jsonFile" : "target-Guess-Debug-0f3c25115c648b57d1b3.json",
@@ -195,6 +222,13 @@
 					"id" : "LeapYear::@ba0b5df2441b839870ef",
 					"jsonFile" : "target-LeapYear-Debug-c747b186c75d3ac5e321.json",
 					"name" : "LeapYear",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "Merge::@0aa9293b8f4ac4783393",
+					"jsonFile" : "target-Merge-Debug-3daf7e99326e70ba71fd.json",
+					"name" : "Merge",
 					"projectIndex" : 0
 				},
 				{

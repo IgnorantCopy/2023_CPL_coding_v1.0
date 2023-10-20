@@ -26,3 +26,7 @@ D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/03-for-a-while/CMakeFiles/Digits
 D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/03-for-a-while/CMakeFiles/SelectionSort.dir
 D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/03-for-a-while/CMakeFiles/edit_cache.dir
 D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/03-for-a-while/CMakeFiles/rebuild_cache.dir
+D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/04-loops/CMakeFiles/GameOfLife.dir
+D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/04-loops/CMakeFiles/Merge.dir
+D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/04-loops/CMakeFiles/edit_cache.dir
+D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/04-loops/CMakeFiles/rebuild_cache.dir
