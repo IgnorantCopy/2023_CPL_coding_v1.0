@@ -12,29 +12,29 @@ int main() {
 //    if (year % 4 == 0) {
 //        if (year % 100 == 0) {
 //            if (year % 400 == 0) {
-//                isLeapYear = 1;
+//                IsLeapYear = 1;
 //            } else {
-//                isLeapYear = 0;
+//                IsLeapYear = 0;
 //            }
 //        } else {
-//            isLeapYear = 1;
+//            IsLeapYear = 1;
 //        }
 //    } else {
-//        isLeapYear = 0;
+//        IsLeapYear = 0;
 //    }
     //上述代码风格属于头重脚轻式(not recommended)
 
     //Modify next: easier first
 //    if (year % 4 != 0) {
-//        isLeapYear = 0;
+//        IsLeapYear = 0;
 //    } else {
 //        if (year % 100 != 0) {
-//            isLeapYear = 1;
+//            IsLeapYear = 1;
 //        } else {
 //            if (year % 400 == 0) {
-//                isLeapYear = 1;
+//                IsLeapYear = 1;
 //            } else {
-//                isLeapYear = 0;
+//                IsLeapYear = 0;
 //            }
 //        }
 //
@@ -42,13 +42,13 @@ int main() {
 
     //then simplify
 //    if (year % 4 != 0) {
-//        isLeapYear = 0;
+//        IsLeapYear = 0;
 //    } else if (year % 100 != 0) {
-//        isLeapYear = 1;
+//        IsLeapYear = 1;
 //    } else if (year % 400 == 0) {
-//        isLeapYear = 1;
+//        IsLeapYear = 1;
 //    } else {
-//        isLeapYear = 0;
+//        IsLeapYear = 0;
 //    }
 
     //at last, merge the conditions
@@ -64,7 +64,7 @@ int main() {
      * ||: 一旦有成立,停止判断
      */
 //    if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
-//        isLeapYear = 1;
+//        IsLeapYear = 1;
 //    }
 
     isLeapYear = (year % 4 == 0 && year % 100 != 0) || year % 400 == 0;

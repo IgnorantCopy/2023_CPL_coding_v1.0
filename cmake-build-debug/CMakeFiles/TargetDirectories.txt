@@ -30,3 +30,12 @@ D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/04-loops/CMakeFiles/GameOfLife.d
 D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/04-loops/CMakeFiles/Merge.dir
 D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/04-loops/CMakeFiles/edit_cache.dir
 D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/04-loops/CMakeFiles/rebuild_cache.dir
+D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/05-function/CMakeFiles/GameOfLife_function.dir
+D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/05-function/CMakeFiles/LeapYear_function.dir
+D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/05-function/CMakeFiles/Primes_function.dir
+D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/05-function/CMakeFiles/BinarySearch_function.dir
+D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/05-function/CMakeFiles/Stars_function.dir
+D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/05-function/CMakeFiles/SelectionSort_function.dir
+D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/05-function/CMakeFiles/Merge_function.dir
+D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/05-function/CMakeFiles/edit_cache.dir
+D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/05-function/CMakeFiles/rebuild_cache.dir

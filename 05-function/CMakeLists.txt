@@ -1,0 +1,7 @@
+add_executable(GameOfLife_function GameOfLife_function.c)
+add_executable(LeapYear_function LeapYear_function.c)
+add_executable(Primes_function Primes_function.c)
+add_executable(BinarySearch_function BinarySearch_function.c)
+add_executable(Stars_function Stars_function.c)
+add_executable(SelectionSort_function SelectionSort_function.c)
+add_executable(Merge_function Merge_function.c)

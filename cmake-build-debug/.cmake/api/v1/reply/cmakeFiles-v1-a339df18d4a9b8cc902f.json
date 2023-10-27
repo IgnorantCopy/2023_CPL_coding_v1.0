@@ -115,6 +115,9 @@
 		},
 		{
 			"path" : "04-loops/CMakeLists.txt"
+		},
+		{
+			"path" : "05-function/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

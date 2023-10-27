@@ -53,3 +53,19 @@ E
 04-loops/GameOfLife.c,a\d\ad43a8588d127371129c56a8e69784ff2f1d04d0
 @
 04-loops/Merge.c,7\3\7372c3977ffc0d56149a82e079c9cfa38587af5d
+J
+05-function/CMakeLists.txt,4\f\4f26bb76a01cbf31e831444f237dfdafccd01c6a
+L
+05-function/Stars_function.c,7\6\76401f8ea7d70c8d7eca43877bd8ec200204f6ac
+O
+05-function/LeapYear_function.c,9\a\9ac3223eac557f83a00bc256a2f193e680cebf46
+M
+05-function/Primes_function.c,9\7\9764f7f9ac9f1b9ae9c7c621a1610ae3859e6ac6
+S
+#05-function/BinarySearch_function.c,f\3\f33b1b7312b9df325084702264296a6e267c1894
+T
+$05-function/SelectionSort_function.c,e\3\e37d118cffaef2e9ce13031a75c9e68306c8a688
+L
+05-function/Merge_function.c,0\a\0a0503fd822bd0d277bc8abfda66d71a108332c5
+Q
+!05-function/GameOfLife_function.c,9\1\916343ce920084d06433554993ba60b13bc07399
