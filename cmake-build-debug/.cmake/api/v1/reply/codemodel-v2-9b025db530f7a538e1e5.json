@@ -13,7 +13,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -35,8 +36,8 @@
 					"source" : "00-Hello",
 					"targetIndexes" : 
 					[
-						9,
-						10
+						14,
+						15
 					]
 				},
 				{
@@ -53,9 +54,9 @@
 					[
 						0,
 						1,
-						4,
-						19,
-						24
+						5,
+						27,
+						32
 					]
 				},
 				{
@@ -70,11 +71,11 @@
 					"source" : "02-if-for-array",
 					"targetIndexes" : 
 					[
-						11,
-						15,
 						16,
-						17,
-						18
+						23,
+						24,
+						25,
+						26
 					]
 				},
 				{
@@ -90,11 +91,11 @@
 					"targetIndexes" : 
 					[
 						2,
-						5,
 						6,
-						20,
-						22,
-						25
+						7,
+						28,
+						30,
+						33
 					]
 				},
 				{
@@ -109,8 +110,8 @@
 					"source" : "04-loops",
 					"targetIndexes" : 
 					[
-						7,
-						13
+						10,
+						19
 					]
 				},
 				{
@@ -125,13 +126,36 @@
 					"source" : "05-function",
 					"targetIndexes" : 
 					[
+						4,
+						11,
+						17,
+						20,
+						29,
+						31,
+						34
+					]
+				},
+				{
+					"build" : "06-recursion",
+					"jsonFile" : "directory-06-recursion-Debug-d8f2a73eb89b986c4ded.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "06-recursion",
+					"targetIndexes" : 
+					[
 						3,
 						8,
+						9,
 						12,
-						14,
+						13,
+						18,
 						21,
-						23,
-						26
+						22,
+						35
 					]
 				}
 			],
@@ -147,7 +171,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					],
 					"name" : "2023_CPL_coding_v1_0",
 					"targetIndexes" : 
@@ -178,7 +203,16 @@
 						23,
 						24,
 						25,
-						26
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35
 					]
 				}
 			],
@@ -203,6 +237,13 @@
 					"id" : "BinarySearch::@558f1dc5e588ec9f3867",
 					"jsonFile" : "target-BinarySearch-Debug-cfb969060c6a3f22e6fe.json",
 					"name" : "BinarySearch",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "BinarySearch-re::@8892f4471f6728ebfe86",
+					"jsonFile" : "target-BinarySearch-re-Debug-724a66d92bbca10ce315.json",
+					"name" : "BinarySearch-re",
 					"projectIndex" : 0
 				},
 				{
@@ -234,6 +275,20 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 7,
+					"id" : "Fibonacci-iter::@8892f4471f6728ebfe86",
+					"jsonFile" : "target-Fibonacci-iter-Debug-74e1104dd335783a1468.json",
+					"name" : "Fibonacci-iter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "Fibonacci-re::@8892f4471f6728ebfe86",
+					"jsonFile" : "target-Fibonacci-re-Debug-1cd4aa73e47992679bd3.json",
+					"name" : "Fibonacci-re",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 5,
 					"id" : "GameOfLife::@0aa9293b8f4ac4783393",
 					"jsonFile" : "target-GameOfLife-Debug-6c53949cbf9813098ee6.json",
@@ -245,6 +300,20 @@
 					"id" : "GameOfLife_function::@e0ee1fd431aa9b03d706",
 					"jsonFile" : "target-GameOfLife_function-Debug-5fe22b09205dda7b8400.json",
 					"name" : "GameOfLife_function",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "Gcd-iter::@8892f4471f6728ebfe86",
+					"jsonFile" : "target-Gcd-iter-Debug-a84dae148bc4f214b5c5.json",
+					"name" : "Gcd-iter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "Gcd-re::@8892f4471f6728ebfe86",
+					"jsonFile" : "target-Gcd-re-Debug-e2dbcdcdac9c0490e1fc.json",
+					"name" : "Gcd-re",
 					"projectIndex" : 0
 				},
 				{
@@ -276,6 +345,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 7,
+					"id" : "Main-re::@8892f4471f6728ebfe86",
+					"jsonFile" : "target-Main-re-Debug-9903220d1c333e664f7b.json",
+					"name" : "Main-re",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 5,
 					"id" : "Merge::@0aa9293b8f4ac4783393",
 					"jsonFile" : "target-Merge-Debug-3daf7e99326e70ba71fd.json",
@@ -287,6 +363,20 @@
 					"id" : "Merge_function::@e0ee1fd431aa9b03d706",
 					"jsonFile" : "target-Merge_function-Debug-5fece38c2d4a2284baf3.json",
 					"name" : "Merge_function",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "Min::@8892f4471f6728ebfe86",
+					"jsonFile" : "target-Min-Debug-c05de69b900ea758c572.json",
+					"name" : "Min",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "Min-re::@8892f4471f6728ebfe86",
+					"jsonFile" : "target-Min-re-Debug-f58a8f56ad0f1ae2e2d1.json",
+					"name" : "Min-re",
 					"projectIndex" : 0
 				},
 				{
@@ -371,6 +461,13 @@
 					"id" : "Stars_function::@e0ee1fd431aa9b03d706",
 					"jsonFile" : "target-Stars_function-Debug-8c60c742f74e91fd1b5e.json",
 					"name" : "Stars_function",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "Sum-re::@8892f4471f6728ebfe86",
+					"jsonFile" : "target-Sum-re-Debug-39c727b30e4900dbc358.json",
+					"name" : "Sum-re",
 					"projectIndex" : 0
 				}
 			]

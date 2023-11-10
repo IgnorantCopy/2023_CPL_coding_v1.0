@@ -11,6 +11,8 @@
 122	261	7188845252836628	03-for-a-while/DigitsWhile.exe	3c9c34ccf40cf822
 2	115	7188845564151227	03-for-a-while/CMakeFiles/DigitsDoWhile.dir/DigitsDoWhile.c.obj	830c0bae10375b95
 116	250	7188845565693163	03-for-a-while/DigitsDoWhile.exe	65c37ade335d3f63
+1	124	7213034635874530	06-recursion/CMakeFiles/Sum-re.dir/Sum-re.c.obj	30c006929b6567bc
+97	221	7213047437241423	06-recursion/Gcd-iter.exe	12e42815a6330cfb
 2	71	7190424867159022	03-for-a-while/CMakeFiles/SelectionSort.dir/SelectionSort.c.obj	72ca819d5cc966a7
 124	325	7200929926071451	05-function/BinarySearch_function.exe	64b1526b61160a10
 3	736	7194973542995488	04-loops/CMakeFiles/GameOfLife.dir/GameOfLife.c.obj	7fdd2fc895fcddd5
@@ -20,6 +22,7 @@
 116	273	7200930282537827	05-function/LeapYear_function.exe	32aeddc02a454ad8
 0	123	7200929924090210	05-function/CMakeFiles/BinarySearch_function.dir/BinarySearch_function.c.obj	de97cef611356a5b
 0	115	7200930280974579	05-function/CMakeFiles/LeapYear_function.dir/LeapYear_function.c.obj	7906aa941f971586
+117	256	7213044977218231	06-recursion/Gcd-re.exe	7da47d528f1d616b
 1	165	7200930582386078	05-function/CMakeFiles/Primes_function.dir/Primes_function.c.obj	7907c44cff4cd242
 165	284	7200930583527219	05-function/Primes_function.exe	24a0115fdb9f962
 1	83	7200930741801407	05-function/CMakeFiles/Stars_function.dir/Stars_function.c.obj	1d5f7bd48cddb7dd
@@ -28,3 +31,16 @@
 120	294	7200950550186654	05-function/SelectionSort_function.exe	9aeb9a437684496c
 1	115	7200954470097994	05-function/CMakeFiles/Merge_function.dir/Merge_function.c.obj	ba64c9876665b16e
 116	277	7200954471695869	05-function/Merge_function.exe	e306dff5cec6a9a5
+1	128	7213028513657980	06-recursion/CMakeFiles/Min-re.dir/Min-re.c.obj	eda8fb60a1b5cd91
+129	344	7213028515816619	06-recursion/Min-re.exe	df1fc955ed6cba51
+125	265	7213034637275455	06-recursion/Sum-re.exe	5addae08cea129f5
+0	111	7213037206369500	06-recursion/CMakeFiles/Fibonacci-re.dir/Fibonacci-re.c.obj	e115d661e93f158e
+112	272	7213037207914202	06-recursion/Fibonacci-re.exe	70620689e6455251
+2	116	7213044975889319	06-recursion/CMakeFiles/Gcd-re.dir/Gcd-re.c.obj	de77b2c42f4e9895
+3	96	7213047436072759	06-recursion/CMakeFiles/Gcd-iter.dir/Gcd-iter.c.obj	88b8e7e8a5ae2e4b
+0	127	7213056698657470	06-recursion/CMakeFiles/BinarySearch-re.dir/BinarySearch-re.c.obj	76e8d8cd61720792
+128	290	7213056700211086	06-recursion/BinarySearch-re.exe	bdf7bfd7e3271ce7
+3	101	7213057465413894	06-recursion/CMakeFiles/BinarySearch-re.dir/BinarySearch-re.c.obj	76e8d8cd61720792
+101	232	7213057466655610	06-recursion/BinarySearch-re.exe	bdf7bfd7e3271ce7
+3	112	7213059870142254	06-recursion/CMakeFiles/BinarySearch-re.dir/BinarySearch-re.c.obj	76e8d8cd61720792
+113	264	7213059871585374	06-recursion/BinarySearch-re.exe	bdf7bfd7e3271ce7
