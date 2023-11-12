@@ -89,3 +89,7 @@ G
 06-recursion/Gcd-iter.c,7\a\7aefe8866a7a1a0b9b59930d5aae6dc1b00ad789
 N
 06-recursion/BinarySearch-re.c,1\e\1e9a341fafe7a13f697ab5f3443c6e27b8248db5
+B
+06-recursion/Uid.c,4\7\475abed2b7fe8742dd0bf8765b1acb1a937bad52
+C
+06-recursion/Rand.c,f\f\fff766c056f2146ba28f6670f720ce9cda566f90

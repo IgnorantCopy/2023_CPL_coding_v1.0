@@ -1424,6 +1424,72 @@ build 06-recursion/BinarySearch-re.exe: C_EXECUTABLE_LINKER__BinarySearch-re_Deb
   TARGET_IMPLIB = 06-recursion\libBinarySearch-re.dll.a
   TARGET_PDB = BinarySearch-re.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Uid
+
+
+#############################################
+# Order-only phony target for Uid
+
+build cmake_object_order_depends_target_Uid: phony || 06-recursion/CMakeFiles/Uid.dir
+
+build 06-recursion/CMakeFiles/Uid.dir/Uid.c.obj: C_COMPILER__Uid_unscanned_Debug D$:/codes/2023_CPL_coding_v1.0/06-recursion/Uid.c || cmake_object_order_depends_target_Uid
+  DEP_FILE = 06-recursion\CMakeFiles\Uid.dir\Uid.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = 06-recursion\CMakeFiles\Uid.dir
+  OBJECT_FILE_DIR = 06-recursion\CMakeFiles\Uid.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Uid
+
+
+#############################################
+# Link the executable 06-recursion\Uid.exe
+
+build 06-recursion/Uid.exe: C_EXECUTABLE_LINKER__Uid_Debug 06-recursion/CMakeFiles/Uid.dir/Uid.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 06-recursion\CMakeFiles\Uid.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 06-recursion\Uid.exe
+  TARGET_IMPLIB = 06-recursion\libUid.dll.a
+  TARGET_PDB = Uid.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Rand
+
+
+#############################################
+# Order-only phony target for Rand
+
+build cmake_object_order_depends_target_Rand: phony || 06-recursion/CMakeFiles/Rand.dir
+
+build 06-recursion/CMakeFiles/Rand.dir/Rand.c.obj: C_COMPILER__Rand_unscanned_Debug D$:/codes/2023_CPL_coding_v1.0/06-recursion/Rand.c || cmake_object_order_depends_target_Rand
+  DEP_FILE = 06-recursion\CMakeFiles\Rand.dir\Rand.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = 06-recursion\CMakeFiles\Rand.dir
+  OBJECT_FILE_DIR = 06-recursion\CMakeFiles\Rand.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Rand
+
+
+#############################################
+# Link the executable 06-recursion\Rand.exe
+
+build 06-recursion/Rand.exe: C_EXECUTABLE_LINKER__Rand_Debug 06-recursion/CMakeFiles/Rand.dir/Rand.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 06-recursion\CMakeFiles\Rand.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 06-recursion\Rand.exe
+  TARGET_IMPLIB = 06-recursion\libRand.dll.a
+  TARGET_PDB = Rand.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1570,6 +1636,10 @@ build Primes_function: phony 05-function/Primes_function.exe
 
 build Primes_function.exe: phony 05-function/Primes_function.exe
 
+build Rand: phony 06-recursion/Rand.exe
+
+build Rand.exe: phony 06-recursion/Rand.exe
+
 build SelectionSort: phony 03-for-a-while/SelectionSort.exe
 
 build SelectionSort.exe: phony 03-for-a-while/SelectionSort.exe
@@ -1593,6 +1663,10 @@ build Stars_function.exe: phony 05-function/Stars_function.exe
 build Sum-re: phony 06-recursion/Sum-re.exe
 
 build Sum-re.exe: phony 06-recursion/Sum-re.exe
+
+build Uid: phony 06-recursion/Uid.exe
+
+build Uid.exe: phony 06-recursion/Uid.exe
 
 # =============================================================================
 # Folder targets.
@@ -1651,7 +1725,7 @@ build 05-function/all: phony 05-function/GameOfLife_function.exe 05-function/Lea
 #############################################
 # Folder: D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/06-recursion
 
-build 06-recursion/all: phony 06-recursion/Main-re.exe 06-recursion/Min.exe 06-recursion/Min-re.exe 06-recursion/Sum-re.exe 06-recursion/Fibonacci-re.exe 06-recursion/Fibonacci-iter.exe 06-recursion/Gcd-re.exe 06-recursion/Gcd-iter.exe 06-recursion/BinarySearch-re.exe
+build 06-recursion/all: phony 06-recursion/Main-re.exe 06-recursion/Min.exe 06-recursion/Min-re.exe 06-recursion/Sum-re.exe 06-recursion/Fibonacci-re.exe 06-recursion/Fibonacci-iter.exe 06-recursion/Gcd-re.exe 06-recursion/Gcd-iter.exe 06-recursion/BinarySearch-re.exe 06-recursion/Uid.exe 06-recursion/Rand.exe
 
 # =============================================================================
 # Built-in targets

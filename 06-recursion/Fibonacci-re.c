@@ -13,8 +13,17 @@ int main() {
 }
 
 long long Fibonacci(int n) {
+    // count (and print out) how many times Fibonacci() has been called
+    static int count = 1;
+    printf("count = %d\n", count++);
+    // memo(备忘录): reduce the repetition
+    static long long int fib[100] = {0};
     if (n <= 1) {
         return n;
     }
-    return Fibonacci(n - 1) + Fibonacci(n - 2);
+    if (fib[n]) {
+        return fib[n];
+    }
+    fib[n] = Fibonacci(n - 1) + Fibonacci(n - 2);
+    return fib[n];
 }
