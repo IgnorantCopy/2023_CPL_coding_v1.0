@@ -1,0 +1,9 @@
+
+ic:S5276"Jimplicit conversion from 'double' to 'int' changes value from 3.14159 to 3(Ü‰Ùòûÿÿÿÿ8Ó˜”˜¾1
+ic:S5276"Oimplicit conversion turns floating-point number into integer: 'double' to 'int'(ã¾Ô8Ûº—˜¾1
+Uc:S5276"<implicit conversion from 'int' to 'float' may lose precision(öÏè/8’ó‰â½1
+3c:S1481"unused variable 'pi'(Ü‰Ùòûÿÿÿÿ8Ûº—˜¾1
+2c:S1481"unused variable 'j'(şıí÷ûÿÿÿÿ8Ûº—˜¾1
+1c:S1481"unused variable 'value'(ÄëÄı8Ûº—˜¾1
+nc:S5276"Oimplicit conversion turns floating-point number into integer: 'double' to 'int'(§±ê®ÿÿÿÿÿ8Ù˜”˜¾1
+Yc:S1854"?Value stored to 'value' during its initialization is never read(ÄëÄı8Ûº—˜¾1

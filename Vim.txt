@@ -1,0 +1,119 @@
+一、光标移动
+1.单位级移动
+    >h:←
+    >j:↓
+    >k:↑
+    >l:→
+2.单词级移动
+    >w:跳到下一个单词开头
+    >e:跳到当前单词结尾
+    >b:跳到当前单词开头
+
+test:
+This project's GitHub url is https://github.com/dofy/learn-vim
+Please clone it to your local folder and open the first file which is
+named chapter01.md via following command "vim chapter01.md"
+and welcome to https://yahaha.net :)
+
+3.块级移动
+    >gg:到文档第一行
+    >G:到文档最后一行
+    >0:到行首
+    >$:到行尾
+    >^:到该行第一个非空白符
+    >H:到屏幕顶端
+    >M:到屏幕中间
+    >L:到屏幕底端
+    >Ctrl+D:向下移动半页
+    >Ctrl+U:向上移动半页
+    >Ctrl+F:向下移动一页
+    >Ctrl+B:向上移动一页
+    >:<N> / <N>gg :跳到第N行
+    >:+<N> / <N>j :向下跳N行
+    >:-<N> / <N>k :向上跳N行
+
+二、查找
+1.文档内查找
+    >*:向后查找当前单词
+    >#:向前查找当前单词
+    >/<string>:向后查找指定字符串
+    >?<string>:向前查找指定字符串
+    >n:继续查找下一个
+    >N:继续查找上一个
+2.行内查找
+    >f<c>:向行尾方向查找字符c
+    >t<c>:向行尾方向查找字符c并定位到该字符之前
+    >F<c>:向行首方向查找字符c
+    >T<c>:向行首方向查找字符c并定位到该字符之后
+    >;:按当前方向继续查找
+    >,:按当前相反方向继续查找
+3.匹配查找
+    >使用 % 对 ( 和 ),[ 和 ],{ 和 } 进行匹配查找,当光标位于其中一个符号上时,按下 %,光标会跳到与之匹配的另外一个符号上
+test:
+const func = (win, doc) => {
+    const SEVEN = ((1 + 2) * (3 + 4) * (5 - 6)) / 7;
+    const YU = [1, 2, [[3, 4], 5, 6], 7];
+    if (true) {
+    return SEVEN;
+    } else {
+    return YU;
+    }
+};
+注:查看buffer: :buffers / :ls
+
+三、文档的修改和保存
+1.插入
+    >i:在当前字符前插入
+    >a:在当前字符后插入
+    >I:行首插入
+    >A:行尾插入
+    >o:下一行插入
+    >O:上一行插入
+注:以上操作会进入insert mode,如果要退出,可以esc / Ctrl+C / Ctrl+[
+2.删除
+    >s:删除当前字符,并进入insert mode
+    >s:删除当前行并保存到剪贴板,同时进入insert mode(== cc)
+    >x:删除当前字符(== delete)
+    >X:删除前一个字符(== backspace)
+    >dd:删除当前行并保存到剪贴板
+    >d<x>:删除指定内容并保存到剪贴板
+    >c<x>:删除指定内容,保存到剪贴板,并进入insert mode
+注:<x>中的x是其他的操作,如dw是删除当前单词(因为w是跳到当前单词结尾),d$是删除从当前位置到行尾的内容
+3.复制
+    >yy:复制当前行到剪贴板
+    >y<x>:复制指定内容到剪贴板
+4.粘贴
+    >p:在当前位置后粘贴
+    >P:在当前位置前粘贴
+5.合并
+    >J:将当前行与下一行合并
+
+test:
+删除这一行
+粘贴到这一行下面
+剪切 ABC 并把它粘贴到 XYZ 前面，使这部分内容看起来像
+剪切 并把它粘贴到 ABC XYZ 前面。
+
+6.替换
+    >r<c>:将当前字符替换为字符c
+    >gu<x>:将指定文本转换为小写
+    >gU<x>:将指定文本转换为大写
+    >g~<x>:将指定文本大小写互转
+    >:%s/<search>/<replace>/:查找<search>并替换为<replace>
+
+test:
+Change this line to UPPERCASE, THEN TO lowercase.
+
+7.撤销、重做
+    >u:撤销
+    >Ctrl+R:重做
+
+8.保存
+    >:w :保存当前文件
+    >:wa :保存所有文件
+    >:wq / ZZ :保存并退出
+    >:q! / ZQ :不保存强制退出
+    >:saveas <new filename>:文件另存为<new filename>
+    >:w <new filename>:文件另存一份名为<new filename>的副本并打开编辑
+
+四、

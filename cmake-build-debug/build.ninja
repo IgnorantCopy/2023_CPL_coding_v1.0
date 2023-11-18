@@ -1490,6 +1490,39 @@ build 06-recursion/Rand.exe: C_EXECUTABLE_LINKER__Rand_Debug 06-recursion/CMakeF
   TARGET_IMPLIB = 06-recursion\libRand.dll.a
   TARGET_PDB = Rand.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target MergeSort
+
+
+#############################################
+# Order-only phony target for MergeSort
+
+build cmake_object_order_depends_target_MergeSort: phony || 06-recursion/CMakeFiles/MergeSort.dir
+
+build 06-recursion/CMakeFiles/MergeSort.dir/MergeSort.c.obj: C_COMPILER__MergeSort_unscanned_Debug D$:/codes/2023_CPL_coding_v1.0/06-recursion/MergeSort.c || cmake_object_order_depends_target_MergeSort
+  DEP_FILE = 06-recursion\CMakeFiles\MergeSort.dir\MergeSort.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = 06-recursion\CMakeFiles\MergeSort.dir
+  OBJECT_FILE_DIR = 06-recursion\CMakeFiles\MergeSort.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target MergeSort
+
+
+#############################################
+# Link the executable 06-recursion\MergeSort.exe
+
+build 06-recursion/MergeSort.exe: C_EXECUTABLE_LINKER__MergeSort_Debug 06-recursion/CMakeFiles/MergeSort.dir/MergeSort.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 06-recursion\CMakeFiles\MergeSort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 06-recursion\MergeSort.exe
+  TARGET_IMPLIB = 06-recursion\libMergeSort.dll.a
+  TARGET_PDB = MergeSort.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1514,6 +1547,397 @@ build 06-recursion/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build 06-recursion/rebuild_cache: phony 06-recursion/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/codes/2023_CPL_coding_v1.0/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target IntLimits
+
+
+#############################################
+# Order-only phony target for IntLimits
+
+build cmake_object_order_depends_target_IntLimits: phony || 07-dataTypes/CMakeFiles/IntLimits.dir
+
+build 07-dataTypes/CMakeFiles/IntLimits.dir/IntLimits.c.obj: C_COMPILER__IntLimits_unscanned_Debug D$:/codes/2023_CPL_coding_v1.0/07-dataTypes/IntLimits.c || cmake_object_order_depends_target_IntLimits
+  DEP_FILE = 07-dataTypes\CMakeFiles\IntLimits.dir\IntLimits.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = 07-dataTypes\CMakeFiles\IntLimits.dir
+  OBJECT_FILE_DIR = 07-dataTypes\CMakeFiles\IntLimits.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target IntLimits
+
+
+#############################################
+# Link the executable 07-dataTypes\IntLimits.exe
+
+build 07-dataTypes/IntLimits.exe: C_EXECUTABLE_LINKER__IntLimits_Debug 07-dataTypes/CMakeFiles/IntLimits.dir/IntLimits.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 07-dataTypes\CMakeFiles\IntLimits.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 07-dataTypes\IntLimits.exe
+  TARGET_IMPLIB = 07-dataTypes\libIntLimits.dll.a
+  TARGET_PDB = IntLimits.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Unsigned
+
+
+#############################################
+# Order-only phony target for Unsigned
+
+build cmake_object_order_depends_target_Unsigned: phony || 07-dataTypes/CMakeFiles/Unsigned.dir
+
+build 07-dataTypes/CMakeFiles/Unsigned.dir/Unsigned.c.obj: C_COMPILER__Unsigned_unscanned_Debug D$:/codes/2023_CPL_coding_v1.0/07-dataTypes/Unsigned.c || cmake_object_order_depends_target_Unsigned
+  DEP_FILE = 07-dataTypes\CMakeFiles\Unsigned.dir\Unsigned.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = 07-dataTypes\CMakeFiles\Unsigned.dir
+  OBJECT_FILE_DIR = 07-dataTypes\CMakeFiles\Unsigned.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Unsigned
+
+
+#############################################
+# Link the executable 07-dataTypes\Unsigned.exe
+
+build 07-dataTypes/Unsigned.exe: C_EXECUTABLE_LINKER__Unsigned_Debug 07-dataTypes/CMakeFiles/Unsigned.dir/Unsigned.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 07-dataTypes\CMakeFiles\Unsigned.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 07-dataTypes\Unsigned.exe
+  TARGET_IMPLIB = 07-dataTypes\libUnsigned.dll.a
+  TARGET_PDB = Unsigned.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SumProduct
+
+
+#############################################
+# Order-only phony target for SumProduct
+
+build cmake_object_order_depends_target_SumProduct: phony || 07-dataTypes/CMakeFiles/SumProduct.dir
+
+build 07-dataTypes/CMakeFiles/SumProduct.dir/SumProduct.c.obj: C_COMPILER__SumProduct_unscanned_Debug D$:/codes/2023_CPL_coding_v1.0/07-dataTypes/SumProduct.c || cmake_object_order_depends_target_SumProduct
+  DEP_FILE = 07-dataTypes\CMakeFiles\SumProduct.dir\SumProduct.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = 07-dataTypes\CMakeFiles\SumProduct.dir
+  OBJECT_FILE_DIR = 07-dataTypes\CMakeFiles\SumProduct.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SumProduct
+
+
+#############################################
+# Link the executable 07-dataTypes\SumProduct.exe
+
+build 07-dataTypes/SumProduct.exe: C_EXECUTABLE_LINKER__SumProduct_Debug 07-dataTypes/CMakeFiles/SumProduct.dir/SumProduct.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 07-dataTypes\CMakeFiles\SumProduct.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 07-dataTypes\SumProduct.exe
+  TARGET_IMPLIB = 07-dataTypes\libSumProduct.dll.a
+  TARGET_PDB = SumProduct.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Char
+
+
+#############################################
+# Order-only phony target for Char
+
+build cmake_object_order_depends_target_Char: phony || 07-dataTypes/CMakeFiles/Char.dir
+
+build 07-dataTypes/CMakeFiles/Char.dir/Char.c.obj: C_COMPILER__Char_unscanned_Debug D$:/codes/2023_CPL_coding_v1.0/07-dataTypes/Char.c || cmake_object_order_depends_target_Char
+  DEP_FILE = 07-dataTypes\CMakeFiles\Char.dir\Char.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = 07-dataTypes\CMakeFiles\Char.dir
+  OBJECT_FILE_DIR = 07-dataTypes\CMakeFiles\Char.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Char
+
+
+#############################################
+# Link the executable 07-dataTypes\Char.exe
+
+build 07-dataTypes/Char.exe: C_EXECUTABLE_LINKER__Char_Debug 07-dataTypes/CMakeFiles/Char.dir/Char.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 07-dataTypes\CMakeFiles\Char.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 07-dataTypes\Char.exe
+  TARGET_IMPLIB = 07-dataTypes\libChar.dll.a
+  TARGET_PDB = Char.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target IntOverflow
+
+
+#############################################
+# Order-only phony target for IntOverflow
+
+build cmake_object_order_depends_target_IntOverflow: phony || 07-dataTypes/CMakeFiles/IntOverflow.dir
+
+build 07-dataTypes/CMakeFiles/IntOverflow.dir/IntOverflow.c.obj: C_COMPILER__IntOverflow_unscanned_Debug D$:/codes/2023_CPL_coding_v1.0/07-dataTypes/IntOverflow.c || cmake_object_order_depends_target_IntOverflow
+  DEP_FILE = 07-dataTypes\CMakeFiles\IntOverflow.dir\IntOverflow.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = 07-dataTypes\CMakeFiles\IntOverflow.dir
+  OBJECT_FILE_DIR = 07-dataTypes\CMakeFiles\IntOverflow.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target IntOverflow
+
+
+#############################################
+# Link the executable 07-dataTypes\IntOverflow.exe
+
+build 07-dataTypes/IntOverflow.exe: C_EXECUTABLE_LINKER__IntOverflow_Debug 07-dataTypes/CMakeFiles/IntOverflow.dir/IntOverflow.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 07-dataTypes\CMakeFiles\IntOverflow.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 07-dataTypes\IntOverflow.exe
+  TARGET_IMPLIB = 07-dataTypes\libIntOverflow.dll.a
+  TARGET_PDB = IntOverflow.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ImplictConversion
+
+
+#############################################
+# Order-only phony target for ImplictConversion
+
+build cmake_object_order_depends_target_ImplictConversion: phony || 07-dataTypes/CMakeFiles/ImplictConversion.dir
+
+build 07-dataTypes/CMakeFiles/ImplictConversion.dir/ImplictConversion.c.obj: C_COMPILER__ImplictConversion_unscanned_Debug D$:/codes/2023_CPL_coding_v1.0/07-dataTypes/ImplictConversion.c || cmake_object_order_depends_target_ImplictConversion
+  DEP_FILE = 07-dataTypes\CMakeFiles\ImplictConversion.dir\ImplictConversion.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = 07-dataTypes\CMakeFiles\ImplictConversion.dir
+  OBJECT_FILE_DIR = 07-dataTypes\CMakeFiles\ImplictConversion.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ImplictConversion
+
+
+#############################################
+# Link the executable 07-dataTypes\ImplictConversion.exe
+
+build 07-dataTypes/ImplictConversion.exe: C_EXECUTABLE_LINKER__ImplictConversion_Debug 07-dataTypes/CMakeFiles/ImplictConversion.dir/ImplictConversion.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 07-dataTypes\CMakeFiles\ImplictConversion.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 07-dataTypes\ImplictConversion.exe
+  TARGET_IMPLIB = 07-dataTypes\libImplictConversion.dll.a
+  TARGET_PDB = ImplictConversion.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ExplicitConversion
+
+
+#############################################
+# Order-only phony target for ExplicitConversion
+
+build cmake_object_order_depends_target_ExplicitConversion: phony || 07-dataTypes/CMakeFiles/ExplicitConversion.dir
+
+build 07-dataTypes/CMakeFiles/ExplicitConversion.dir/ExplicitConversion.c.obj: C_COMPILER__ExplicitConversion_unscanned_Debug D$:/codes/2023_CPL_coding_v1.0/07-dataTypes/ExplicitConversion.c || cmake_object_order_depends_target_ExplicitConversion
+  DEP_FILE = 07-dataTypes\CMakeFiles\ExplicitConversion.dir\ExplicitConversion.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = 07-dataTypes\CMakeFiles\ExplicitConversion.dir
+  OBJECT_FILE_DIR = 07-dataTypes\CMakeFiles\ExplicitConversion.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ExplicitConversion
+
+
+#############################################
+# Link the executable 07-dataTypes\ExplicitConversion.exe
+
+build 07-dataTypes/ExplicitConversion.exe: C_EXECUTABLE_LINKER__ExplicitConversion_Debug 07-dataTypes/CMakeFiles/ExplicitConversion.dir/ExplicitConversion.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 07-dataTypes\CMakeFiles\ExplicitConversion.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 07-dataTypes\ExplicitConversion.exe
+  TARGET_IMPLIB = 07-dataTypes\libExplicitConversion.dll.a
+  TARGET_PDB = ExplicitConversion.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target FloatLimit
+
+
+#############################################
+# Order-only phony target for FloatLimit
+
+build cmake_object_order_depends_target_FloatLimit: phony || 07-dataTypes/CMakeFiles/FloatLimit.dir
+
+build 07-dataTypes/CMakeFiles/FloatLimit.dir/FloatLimit.c.obj: C_COMPILER__FloatLimit_unscanned_Debug D$:/codes/2023_CPL_coding_v1.0/07-dataTypes/FloatLimit.c || cmake_object_order_depends_target_FloatLimit
+  DEP_FILE = 07-dataTypes\CMakeFiles\FloatLimit.dir\FloatLimit.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = 07-dataTypes\CMakeFiles\FloatLimit.dir
+  OBJECT_FILE_DIR = 07-dataTypes\CMakeFiles\FloatLimit.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target FloatLimit
+
+
+#############################################
+# Link the executable 07-dataTypes\FloatLimit.exe
+
+build 07-dataTypes/FloatLimit.exe: C_EXECUTABLE_LINKER__FloatLimit_Debug 07-dataTypes/CMakeFiles/FloatLimit.dir/FloatLimit.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 07-dataTypes\CMakeFiles\FloatLimit.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 07-dataTypes\FloatLimit.exe
+  TARGET_IMPLIB = 07-dataTypes\libFloatLimit.dll.a
+  TARGET_PDB = FloatLimit.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Loop
+
+
+#############################################
+# Order-only phony target for Loop
+
+build cmake_object_order_depends_target_Loop: phony || 07-dataTypes/CMakeFiles/Loop.dir
+
+build 07-dataTypes/CMakeFiles/Loop.dir/Loop.c.obj: C_COMPILER__Loop_unscanned_Debug D$:/codes/2023_CPL_coding_v1.0/07-dataTypes/Loop.c || cmake_object_order_depends_target_Loop
+  DEP_FILE = 07-dataTypes\CMakeFiles\Loop.dir\Loop.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = 07-dataTypes\CMakeFiles\Loop.dir
+  OBJECT_FILE_DIR = 07-dataTypes\CMakeFiles\Loop.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Loop
+
+
+#############################################
+# Link the executable 07-dataTypes\Loop.exe
+
+build 07-dataTypes/Loop.exe: C_EXECUTABLE_LINKER__Loop_Debug 07-dataTypes/CMakeFiles/Loop.dir/Loop.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 07-dataTypes\CMakeFiles\Loop.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 07-dataTypes\Loop.exe
+  TARGET_IMPLIB = 07-dataTypes\libLoop.dll.a
+  TARGET_PDB = Loop.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Compare
+
+
+#############################################
+# Order-only phony target for Compare
+
+build cmake_object_order_depends_target_Compare: phony || 07-dataTypes/CMakeFiles/Compare.dir
+
+build 07-dataTypes/CMakeFiles/Compare.dir/Compare.c.obj: C_COMPILER__Compare_unscanned_Debug D$:/codes/2023_CPL_coding_v1.0/07-dataTypes/Compare.c || cmake_object_order_depends_target_Compare
+  DEP_FILE = 07-dataTypes\CMakeFiles\Compare.dir\Compare.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = 07-dataTypes\CMakeFiles\Compare.dir
+  OBJECT_FILE_DIR = 07-dataTypes\CMakeFiles\Compare.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Compare
+
+
+#############################################
+# Link the executable 07-dataTypes\Compare.exe
+
+build 07-dataTypes/Compare.exe: C_EXECUTABLE_LINKER__Compare_Debug 07-dataTypes/CMakeFiles/Compare.dir/Compare.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 07-dataTypes\CMakeFiles\Compare.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 07-dataTypes\Compare.exe
+  TARGET_IMPLIB = 07-dataTypes\libCompare.dll.a
+  TARGET_PDB = Compare.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Timing
+
+
+#############################################
+# Order-only phony target for Timing
+
+build cmake_object_order_depends_target_Timing: phony || 07-dataTypes/CMakeFiles/Timing.dir
+
+build 07-dataTypes/CMakeFiles/Timing.dir/Timing.c.obj: C_COMPILER__Timing_unscanned_Debug D$:/codes/2023_CPL_coding_v1.0/07-dataTypes/Timing.c || cmake_object_order_depends_target_Timing
+  DEP_FILE = 07-dataTypes\CMakeFiles\Timing.dir\Timing.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = 07-dataTypes\CMakeFiles\Timing.dir
+  OBJECT_FILE_DIR = 07-dataTypes\CMakeFiles\Timing.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Timing
+
+
+#############################################
+# Link the executable 07-dataTypes\Timing.exe
+
+build 07-dataTypes/Timing.exe: C_EXECUTABLE_LINKER__Timing_Debug 07-dataTypes/CMakeFiles/Timing.dir/Timing.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 07-dataTypes\CMakeFiles\Timing.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 07-dataTypes\Timing.exe
+  TARGET_IMPLIB = 07-dataTypes\libTiming.dll.a
+  TARGET_PDB = Timing.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build 07-dataTypes/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\codes\2023_CPL_coding_v1.0\cmake-build-debug\07-dataTypes && "D:\Program Files\apps\CLion\ch-0\232.9921.42\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 07-dataTypes/edit_cache: phony 07-dataTypes/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 07-dataTypes/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\codes\2023_CPL_coding_v1.0\cmake-build-debug\07-dataTypes && "D:\Program Files\apps\CLion\ch-0\232.9921.42\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\codes\2023_CPL_coding_v1.0 -BD:\codes\2023_CPL_coding_v1.0\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 07-dataTypes/rebuild_cache: phony 07-dataTypes/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build AdminScanf: phony 01-types-io/AdminScanf.exe
@@ -1536,9 +1960,17 @@ build BinarySearch_function: phony 05-function/BinarySearch_function.exe
 
 build BinarySearch_function.exe: phony 05-function/BinarySearch_function.exe
 
+build Char: phony 07-dataTypes/Char.exe
+
+build Char.exe: phony 07-dataTypes/Char.exe
+
 build Circle: phony 01-types-io/Circle.exe
 
 build Circle.exe: phony 01-types-io/Circle.exe
+
+build Compare: phony 07-dataTypes/Compare.exe
+
+build Compare.exe: phony 07-dataTypes/Compare.exe
 
 build DigitsDoWhile: phony 03-for-a-while/DigitsDoWhile.exe
 
@@ -1548,6 +1980,10 @@ build DigitsWhile: phony 03-for-a-while/DigitsWhile.exe
 
 build DigitsWhile.exe: phony 03-for-a-while/DigitsWhile.exe
 
+build ExplicitConversion: phony 07-dataTypes/ExplicitConversion.exe
+
+build ExplicitConversion.exe: phony 07-dataTypes/ExplicitConversion.exe
+
 build Fibonacci-iter: phony 06-recursion/Fibonacci-iter.exe
 
 build Fibonacci-iter.exe: phony 06-recursion/Fibonacci-iter.exe
@@ -1555,6 +1991,10 @@ build Fibonacci-iter.exe: phony 06-recursion/Fibonacci-iter.exe
 build Fibonacci-re: phony 06-recursion/Fibonacci-re.exe
 
 build Fibonacci-re.exe: phony 06-recursion/Fibonacci-re.exe
+
+build FloatLimit: phony 07-dataTypes/FloatLimit.exe
+
+build FloatLimit.exe: phony 07-dataTypes/FloatLimit.exe
 
 build GameOfLife: phony 04-loops/GameOfLife.exe
 
@@ -1580,6 +2020,18 @@ build Hello: phony 00-Hello/Hello.exe
 
 build Hello.exe: phony 00-Hello/Hello.exe
 
+build ImplictConversion: phony 07-dataTypes/ImplictConversion.exe
+
+build ImplictConversion.exe: phony 07-dataTypes/ImplictConversion.exe
+
+build IntLimits: phony 07-dataTypes/IntLimits.exe
+
+build IntLimits.exe: phony 07-dataTypes/IntLimits.exe
+
+build IntOverflow: phony 07-dataTypes/IntOverflow.exe
+
+build IntOverflow.exe: phony 07-dataTypes/IntOverflow.exe
+
 build LeapYear: phony 02-if-for-array/LeapYear.exe
 
 build LeapYear.exe: phony 02-if-for-array/LeapYear.exe
@@ -1588,6 +2040,10 @@ build LeapYear_function: phony 05-function/LeapYear_function.exe
 
 build LeapYear_function.exe: phony 05-function/LeapYear_function.exe
 
+build Loop: phony 07-dataTypes/Loop.exe
+
+build Loop.exe: phony 07-dataTypes/Loop.exe
+
 build Main-re: phony 06-recursion/Main-re.exe
 
 build Main-re.exe: phony 06-recursion/Main-re.exe
@@ -1595,6 +2051,10 @@ build Main-re.exe: phony 06-recursion/Main-re.exe
 build Merge: phony 04-loops/Merge.exe
 
 build Merge.exe: phony 04-loops/Merge.exe
+
+build MergeSort: phony 06-recursion/MergeSort.exe
+
+build MergeSort.exe: phony 06-recursion/MergeSort.exe
 
 build Merge_function: phony 05-function/Merge_function.exe
 
@@ -1664,9 +2124,21 @@ build Sum-re: phony 06-recursion/Sum-re.exe
 
 build Sum-re.exe: phony 06-recursion/Sum-re.exe
 
+build SumProduct: phony 07-dataTypes/SumProduct.exe
+
+build SumProduct.exe: phony 07-dataTypes/SumProduct.exe
+
+build Timing: phony 07-dataTypes/Timing.exe
+
+build Timing.exe: phony 07-dataTypes/Timing.exe
+
 build Uid: phony 06-recursion/Uid.exe
 
 build Uid.exe: phony 06-recursion/Uid.exe
+
+build Unsigned: phony 07-dataTypes/Unsigned.exe
+
+build Unsigned.exe: phony 07-dataTypes/Unsigned.exe
 
 # =============================================================================
 # Folder targets.
@@ -1676,7 +2148,7 @@ build Uid.exe: phony 06-recursion/Uid.exe
 #############################################
 # Folder: D:/codes/2023_CPL_coding_v1.0/cmake-build-debug
 
-build all: phony 00-Hello/all 01-types-io/all 02-if-for-array/all 03-for-a-while/all 04-loops/all 05-function/all 06-recursion/all
+build all: phony 00-Hello/all 01-types-io/all 02-if-for-array/all 03-for-a-while/all 04-loops/all 05-function/all 06-recursion/all 07-dataTypes/all
 
 # =============================================================================
 
@@ -1725,7 +2197,14 @@ build 05-function/all: phony 05-function/GameOfLife_function.exe 05-function/Lea
 #############################################
 # Folder: D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/06-recursion
 
-build 06-recursion/all: phony 06-recursion/Main-re.exe 06-recursion/Min.exe 06-recursion/Min-re.exe 06-recursion/Sum-re.exe 06-recursion/Fibonacci-re.exe 06-recursion/Fibonacci-iter.exe 06-recursion/Gcd-re.exe 06-recursion/Gcd-iter.exe 06-recursion/BinarySearch-re.exe 06-recursion/Uid.exe 06-recursion/Rand.exe
+build 06-recursion/all: phony 06-recursion/Main-re.exe 06-recursion/Min.exe 06-recursion/Min-re.exe 06-recursion/Sum-re.exe 06-recursion/Fibonacci-re.exe 06-recursion/Fibonacci-iter.exe 06-recursion/Gcd-re.exe 06-recursion/Gcd-iter.exe 06-recursion/BinarySearch-re.exe 06-recursion/Uid.exe 06-recursion/Rand.exe 06-recursion/MergeSort.exe
+
+# =============================================================================
+
+#############################################
+# Folder: D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/07-dataTypes
+
+build 07-dataTypes/all: phony 07-dataTypes/IntLimits.exe 07-dataTypes/Unsigned.exe 07-dataTypes/SumProduct.exe 07-dataTypes/Char.exe 07-dataTypes/IntOverflow.exe 07-dataTypes/ImplictConversion.exe 07-dataTypes/ExplicitConversion.exe 07-dataTypes/FloatLimit.exe 07-dataTypes/Loop.exe 07-dataTypes/Compare.exe 07-dataTypes/Timing.exe
 
 # =============================================================================
 # Built-in targets
@@ -1734,14 +2213,14 @@ build 06-recursion/all: phony 06-recursion/Main-re.exe 06-recursion/Min.exe 06-r
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake D$:/codes/2023_CPL_coding_v1.0/00-Hello/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/01-types-io/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/02-if-for-array/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/03-for-a-while/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/04-loops/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/05-function/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/06-recursion/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake D$:/codes/2023_CPL_coding_v1.0/00-Hello/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/01-types-io/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/02-if-for-array/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/03-for-a-while/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/04-loops/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/05-function/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/06-recursion/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/07-dataTypes/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake D$:/codes/2023_CPL_coding_v1.0/00-Hello/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/01-types-io/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/02-if-for-array/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/03-for-a-while/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/04-loops/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/05-function/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/06-recursion/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/CMakeLists.txt: phony
+build CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake D$:/Program$ Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake D$:/codes/2023_CPL_coding_v1.0/00-Hello/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/01-types-io/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/02-if-for-array/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/03-for-a-while/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/04-loops/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/05-function/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/06-recursion/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/07-dataTypes/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/CMakeLists.txt: phony
 
 
 #############################################

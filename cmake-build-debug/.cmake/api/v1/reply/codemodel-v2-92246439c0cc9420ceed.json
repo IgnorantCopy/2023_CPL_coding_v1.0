@@ -14,7 +14,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -36,8 +37,8 @@
 					"source" : "00-Hello",
 					"targetIndexes" : 
 					[
-						14,
-						15
+						18,
+						19
 					]
 				},
 				{
@@ -54,9 +55,9 @@
 					[
 						0,
 						1,
-						5,
-						27,
-						33
+						6,
+						36,
+						42
 					]
 				},
 				{
@@ -71,11 +72,11 @@
 					"source" : "02-if-for-array",
 					"targetIndexes" : 
 					[
-						16,
 						23,
-						24,
-						25,
-						26
+						32,
+						33,
+						34,
+						35
 					]
 				},
 				{
@@ -91,11 +92,11 @@
 					"targetIndexes" : 
 					[
 						2,
-						6,
-						7,
-						28,
-						31,
-						34
+						8,
+						9,
+						37,
+						40,
+						43
 					]
 				},
 				{
@@ -110,8 +111,8 @@
 					"source" : "04-loops",
 					"targetIndexes" : 
 					[
-						10,
-						19
+						14,
+						27
 					]
 				},
 				{
@@ -127,12 +128,12 @@
 					"targetIndexes" : 
 					[
 						4,
-						11,
-						17,
-						20,
+						15,
+						24,
 						29,
-						32,
-						35
+						38,
+						41,
+						44
 					]
 				},
 				{
@@ -148,16 +149,42 @@
 					"targetIndexes" : 
 					[
 						3,
-						8,
-						9,
+						11,
 						12,
+						16,
+						17,
+						26,
+						28,
+						30,
+						31,
+						39,
+						45,
+						48
+					]
+				},
+				{
+					"build" : "07-dataTypes",
+					"jsonFile" : "directory-07-dataTypes-Debug-49819caa96d1296eb1ab.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "07-dataTypes",
+					"targetIndexes" : 
+					[
+						5,
+						7,
+						10,
 						13,
-						18,
+						20,
 						21,
 						22,
-						30,
-						36,
-						37
+						25,
+						46,
+						47,
+						49
 					]
 				}
 			],
@@ -174,7 +201,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					],
 					"name" : "2023_CPL_coding_v1_0",
 					"targetIndexes" : 
@@ -216,7 +244,19 @@
 						34,
 						35,
 						36,
-						37
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49
 					]
 				}
 			],
@@ -258,10 +298,24 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 8,
+					"id" : "Char::@a448271bdcce3331c709",
+					"jsonFile" : "target-Char-Debug-f1f3db555c8b4b78352f.json",
+					"name" : "Char",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 2,
 					"id" : "Circle::@114c89a78d9eb942a263",
 					"jsonFile" : "target-Circle-Debug-f3b267a5e509e17a38e2.json",
 					"name" : "Circle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "Compare::@a448271bdcce3331c709",
+					"jsonFile" : "target-Compare-Debug-a5fcc093e8af1c04c83b.json",
+					"name" : "Compare",
 					"projectIndex" : 0
 				},
 				{
@@ -279,6 +333,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 8,
+					"id" : "ExplicitConversion::@a448271bdcce3331c709",
+					"jsonFile" : "target-ExplicitConversion-Debug-9a9b0b2a70c40c987596.json",
+					"name" : "ExplicitConversion",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 7,
 					"id" : "Fibonacci-iter::@8892f4471f6728ebfe86",
 					"jsonFile" : "target-Fibonacci-iter-Debug-74e1104dd335783a1468.json",
@@ -290,6 +351,13 @@
 					"id" : "Fibonacci-re::@8892f4471f6728ebfe86",
 					"jsonFile" : "target-Fibonacci-re-Debug-1cd4aa73e47992679bd3.json",
 					"name" : "Fibonacci-re",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "FloatLimit::@a448271bdcce3331c709",
+					"jsonFile" : "target-FloatLimit-Debug-acc63b35ed70900775b6.json",
+					"name" : "FloatLimit",
 					"projectIndex" : 0
 				},
 				{
@@ -335,6 +403,27 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 8,
+					"id" : "ImplictConversion::@a448271bdcce3331c709",
+					"jsonFile" : "target-ImplictConversion-Debug-6428f1085ade5e04af72.json",
+					"name" : "ImplictConversion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "IntLimits::@a448271bdcce3331c709",
+					"jsonFile" : "target-IntLimits-Debug-359b802eee0b97dc844b.json",
+					"name" : "IntLimits",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "IntOverflow::@a448271bdcce3331c709",
+					"jsonFile" : "target-IntOverflow-Debug-5d6445bb56f31d1f577b.json",
+					"name" : "IntOverflow",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 3,
 					"id" : "LeapYear::@ba0b5df2441b839870ef",
 					"jsonFile" : "target-LeapYear-Debug-c747b186c75d3ac5e321.json",
@@ -349,6 +438,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 8,
+					"id" : "Loop::@a448271bdcce3331c709",
+					"jsonFile" : "target-Loop-Debug-3a7de225666d737944f7.json",
+					"name" : "Loop",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 7,
 					"id" : "Main-re::@8892f4471f6728ebfe86",
 					"jsonFile" : "target-Main-re-Debug-9903220d1c333e664f7b.json",
@@ -360,6 +456,13 @@
 					"id" : "Merge::@0aa9293b8f4ac4783393",
 					"jsonFile" : "target-Merge-Debug-3daf7e99326e70ba71fd.json",
 					"name" : "Merge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "MergeSort::@8892f4471f6728ebfe86",
+					"jsonFile" : "target-MergeSort-Debug-40dc7f3f4b16a262bab0.json",
+					"name" : "MergeSort",
 					"projectIndex" : 0
 				},
 				{
@@ -482,10 +585,31 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 8,
+					"id" : "SumProduct::@a448271bdcce3331c709",
+					"jsonFile" : "target-SumProduct-Debug-d072a6f295e2c1c350ea.json",
+					"name" : "SumProduct",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "Timing::@a448271bdcce3331c709",
+					"jsonFile" : "target-Timing-Debug-d106663a819b7883e1c9.json",
+					"name" : "Timing",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 7,
 					"id" : "Uid::@8892f4471f6728ebfe86",
 					"jsonFile" : "target-Uid-Debug-36d86777648c23b18177.json",
 					"name" : "Uid",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "Unsigned::@a448271bdcce3331c709",
+					"jsonFile" : "target-Unsigned-Debug-acc1d856641d2edf8ad3.json",
+					"name" : "Unsigned",
 					"projectIndex" : 0
 				}
 			]

@@ -121,6 +121,9 @@
 		},
 		{
 			"path" : "06-recursion/CMakeLists.txt"
+		},
+		{
+			"path" : "07-dataTypes/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",
