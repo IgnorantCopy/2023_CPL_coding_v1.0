@@ -116,4 +116,107 @@ Change this line to UPPERCASE, THEN TO lowercase.
     >:saveas <new filename>:文件另存为<new filename>
     >:w <new filename>:文件另存一份名为<new filename>的副本并打开编辑
 
-四、
+四、技巧
+1.设置
+    >:set number:显示行号
+    >:set relativenumber:显示相对行号
+    >:set hlsearch:搜索结果显示高亮
+    >:set autoindent:自动缩进
+    >:set smartindent:智能缩进
+    >:set tabstop = <num>:制表符宽度为<num>
+    >:set softtabstop = <num>:按tab缩进<num>格
+    >:set shiftwidth = <num>:自动缩进宽度为<num>
+    >:set expandtab:缩进时将制表符转换为空格
+    >:filetype on:开启文件类型检测
+    >:syntax on:开启语法高亮
+2.重复上次命令: .
+
+test:
+按 dd 删除本行
+按 . 重复删除操作
+2. 再删除两行
+这行也没了
+p 把刚才删掉的粘回来
+3. 又多出 6 行
+
+3.缩进
+    > >>:向右缩进当前行
+    > <<:向左缩进当前行
+4.自动排版
+    >==:自动排版当前行
+    >gg==G:将整个文档自动排版
+    >=<x>:将指定内容自动排版
+
+五、分屏与标签页
+1.分屏
+    ①分屏方式:
+        >:sp(split) / Ctrl+w s:上下分屏
+        >:vs(vsplit) / Ctrl+w v:左右分屏
+        >:diffs(diffsplit): diff 模式下打开一个分屏(后面可以加上<filename>)
+    ②窗口跳转:
+        >Ctrl+w w:激活下一个窗口
+        >Ctrl+w j:激活下方窗口
+        >Ctrl+w k:激活上方窗口
+        >Ctrl+w h:激活左侧窗口
+        >Ctrl+w l:激活右侧窗口
+    ③移动分屏:
+        >Ctrl+w H:移动到左侧
+        >Ctrl+w L:移动到右侧
+        >Ctrl+w K:移动到上方
+        >Ctrl+w J:移动到下方
+    ④屏幕缩放(?):
+        >Ctrl+w =:平均窗口尺寸
+        >Ctrl+w +:增加高度
+        >Ctrl+w -:减少高度
+        >Ctrl+w >:增加宽度
+        >Ctrl+w <:减少宽度
+        >Ctrl+w _:最大高度
+        >Ctrl+w |:最大宽度
+
+2.标签页
+    ①创建标签页
+        >:tabe(tabnew / tabedit):打开新标签页(可以在后面加上<filename>指定打开的文件)
+        >:Ctrl+w gf:在新标签页中打开当前光标所在位置的文件名
+    ②切换标签页
+        >gt / :tabn(tabnext):下一个标签页
+        >gT / :tabp(tabprevious):上一个标签
+        >:tabr(tabrewind) / :tabfir(tabfirst):前往第一个标签页
+        >:tabl(tablast):前往最后一个标签页
+    ③关闭标签页
+        >:tabc(tabclose):关闭当前标签页
+        >:-tabc:关闭上一个标签页
+        >:+tabc:关闭下一个标签页
+        >:tabo(tabonly):关闭其他所有标签页
+
+六、块操作
+test:
+var myArray = [
+ctrl-v 进入块操作，$ 到行尾，j 到下一行（做！）。
+按 j 到下一行
+下面还好多行，干脆来个 4j 多跳几行
+https://www.yahaha.net
+https://www.yahaha.net
+以后看好行号再跳！现在按 A 插入，然后输入 <单引号><逗号><Esc> 完成第一步。
+// Oops... 跳多了，没事，按 k 回到上一行
+];
+
+七、宏
+test:
+var myArray = [
+按 qa 开启宏录制，前方高能，连续按 I<单引号><Esc>A<单引号><逗号><Esc>jq7@a
+我也要
+我也要
+我也要
+我也要
+我也要
+我也要
+我也要
+];
+解释:
+    >q:开启录制宏
+    >a:给录制的宏一个存储位置,可以是0-9,a-z
+    >I<单引号><Esc>A<单引号><逗号><Esc>j:录制的操作
+    >q:结束录制
+    ><N>@:唤起宏<N>次
+    >a:宏的名字
+注:@@:唤起最后一次执行的宏
