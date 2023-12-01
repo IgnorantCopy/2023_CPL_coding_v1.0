@@ -124,6 +124,12 @@
 		},
 		{
 			"path" : "07-dataTypes/CMakeLists.txt"
+		},
+		{
+			"path" : "08-pointersAndArrays/CMakeLists.txt"
+		},
+		{
+			"path" : "09-pointersAndStrings/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

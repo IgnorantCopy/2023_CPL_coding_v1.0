@@ -66,3 +66,13 @@ D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/07-dataTypes/CMakeFiles/Compare.
 D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/07-dataTypes/CMakeFiles/Timing.dir
 D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/07-dataTypes/CMakeFiles/edit_cache.dir
 D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/07-dataTypes/CMakeFiles/rebuild_cache.dir
+D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/08-pointersAndArrays/CMakeFiles/Radius.dir
+D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/08-pointersAndArrays/CMakeFiles/SelectionSortPointer.dir
+D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/08-pointersAndArrays/CMakeFiles/edit_cache.dir
+D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/08-pointersAndArrays/CMakeFiles/rebuild_cache.dir
+D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/09-pointersAndStrings/CMakeFiles/StrLiterals.dir
+D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/09-pointersAndStrings/CMakeFiles/Strlen.dir
+D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/09-pointersAndStrings/CMakeFiles/Strcpy.dir
+D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/09-pointersAndStrings/CMakeFiles/Strcmp.dir
+D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/09-pointersAndStrings/CMakeFiles/edit_cache.dir
+D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/09-pointersAndStrings/CMakeFiles/rebuild_cache.dir

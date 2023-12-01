@@ -1,0 +1,4 @@
+add_executable(StrLiterals StrLiterals.c)
+add_executable(Strlen Strlen.c)
+add_executable(Strcpy Strcpy.c)
+add_executable(Strcmp Strcmp.c)

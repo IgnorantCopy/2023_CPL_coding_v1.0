@@ -15,7 +15,9 @@
 						5,
 						6,
 						7,
-						8
+						8,
+						9,
+						10
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -57,7 +59,7 @@
 						1,
 						6,
 						36,
-						42
+						44
 					]
 				},
 				{
@@ -95,8 +97,8 @@
 						8,
 						9,
 						37,
-						40,
-						43
+						41,
+						45
 					]
 				},
 				{
@@ -132,8 +134,8 @@
 						24,
 						29,
 						38,
-						41,
-						44
+						43,
+						46
 					]
 				},
 				{
@@ -157,9 +159,9 @@
 						28,
 						30,
 						31,
-						39,
-						45,
-						48
+						40,
+						51,
+						54
 					]
 				},
 				{
@@ -182,9 +184,43 @@
 						21,
 						22,
 						25,
-						46,
+						52,
+						53,
+						55
+					]
+				},
+				{
+					"build" : "08-pointersAndArrays",
+					"jsonFile" : "directory-08-pointersAndArrays-Debug-8b5d23e498401bb0b8ec.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "08-pointersAndArrays",
+					"targetIndexes" : 
+					[
+						39,
+						42
+					]
+				},
+				{
+					"build" : "09-pointersAndStrings",
+					"jsonFile" : "directory-09-pointersAndStrings-Debug-5029321d3b313877895b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "09-pointersAndStrings",
+					"targetIndexes" : 
+					[
 						47,
-						49
+						48,
+						49,
+						50
 					]
 				}
 			],
@@ -202,7 +238,9 @@
 						5,
 						6,
 						7,
-						8
+						8,
+						9,
+						10
 					],
 					"name" : "2023_CPL_coding_v1_0",
 					"targetIndexes" : 
@@ -256,7 +294,13 @@
 						46,
 						47,
 						48,
-						49
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55
 					]
 				}
 			],
@@ -536,6 +580,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 9,
+					"id" : "Radius::@f91507419ce9f06aa7fc",
+					"jsonFile" : "target-Radius-Debug-50acb3bec887dd20b0fc.json",
+					"name" : "Radius",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 7,
 					"id" : "Rand::@8892f4471f6728ebfe86",
 					"jsonFile" : "target-Rand-Debug-0b84ad54735a6d46e59c.json",
@@ -547,6 +598,13 @@
 					"id" : "SelectionSort::@558f1dc5e588ec9f3867",
 					"jsonFile" : "target-SelectionSort-Debug-86f27f699247acb0dbf1.json",
 					"name" : "SelectionSort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "SelectionSortPointer::@f91507419ce9f06aa7fc",
+					"jsonFile" : "target-SelectionSortPointer-Debug-ca4423c87f7580851c80.json",
+					"name" : "SelectionSortPointer",
 					"projectIndex" : 0
 				},
 				{
@@ -575,6 +633,34 @@
 					"id" : "Stars_function::@e0ee1fd431aa9b03d706",
 					"jsonFile" : "target-Stars_function-Debug-8c60c742f74e91fd1b5e.json",
 					"name" : "Stars_function",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "StrLiterals::@c01f7b8edf3fc29afb3a",
+					"jsonFile" : "target-StrLiterals-Debug-20964dbbbd7ffbaf37d3.json",
+					"name" : "StrLiterals",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "Strcmp::@c01f7b8edf3fc29afb3a",
+					"jsonFile" : "target-Strcmp-Debug-33a6c347123b5ad949e1.json",
+					"name" : "Strcmp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "Strcpy::@c01f7b8edf3fc29afb3a",
+					"jsonFile" : "target-Strcpy-Debug-936b98f628e9de76c645.json",
+					"name" : "Strcpy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "Strlen::@c01f7b8edf3fc29afb3a",
+					"jsonFile" : "target-Strlen-Debug-4471dae7dbf7b0af50fd.json",
+					"name" : "Strlen",
 					"projectIndex" : 0
 				},
 				{
