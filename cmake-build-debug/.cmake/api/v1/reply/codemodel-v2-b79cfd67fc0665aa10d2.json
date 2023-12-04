@@ -160,8 +160,8 @@
 						30,
 						31,
 						40,
-						51,
-						54
+						52,
+						55
 					]
 				},
 				{
@@ -184,9 +184,9 @@
 						21,
 						22,
 						25,
-						52,
 						53,
-						55
+						54,
+						56
 					]
 				},
 				{
@@ -220,7 +220,8 @@
 						47,
 						48,
 						49,
-						50
+						50,
+						51
 					]
 				}
 			],
@@ -300,7 +301,8 @@
 						52,
 						53,
 						54,
-						55
+						55,
+						56
 					]
 				}
 			],
@@ -654,6 +656,13 @@
 					"id" : "Strcpy::@c01f7b8edf3fc29afb3a",
 					"jsonFile" : "target-Strcpy-Debug-936b98f628e9de76c645.json",
 					"name" : "Strcpy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "StrcpyOutOfClass::@c01f7b8edf3fc29afb3a",
+					"jsonFile" : "target-StrcpyOutOfClass-Debug-8c0d9bbdf9d1edc9e05d.json",
+					"name" : "StrcpyOutOfClass",
 					"projectIndex" : 0
 				},
 				{

@@ -137,3 +137,5 @@ N
 09-pointersAndStrings/Strcpy.c,e\0\e078b7e4f4d053d2d20f6a5723b7981cc5f46ee8
 N
 09-pointersAndStrings/Strcmp.c,6\2\6227215389d9ef51071a09238ae0d948cad59a96
+X
+(09-pointersAndStrings/StrcpyOutOfClass.c,6\6\6612c296e543ae4cf6f2f3c3a80e75eb9c6bcbb5

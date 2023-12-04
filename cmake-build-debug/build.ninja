@@ -2168,6 +2168,39 @@ build 09-pointersAndStrings/Strcmp.exe: C_EXECUTABLE_LINKER__Strcmp_Debug 09-poi
   TARGET_IMPLIB = 09-pointersAndStrings\libStrcmp.dll.a
   TARGET_PDB = Strcmp.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target StrcpyOutOfClass
+
+
+#############################################
+# Order-only phony target for StrcpyOutOfClass
+
+build cmake_object_order_depends_target_StrcpyOutOfClass: phony || 09-pointersAndStrings/CMakeFiles/StrcpyOutOfClass.dir
+
+build 09-pointersAndStrings/CMakeFiles/StrcpyOutOfClass.dir/StrcpyOutOfClass.c.obj: C_COMPILER__StrcpyOutOfClass_unscanned_Debug D$:/codes/2023_CPL_coding_v1.0/09-pointersAndStrings/StrcpyOutOfClass.c || cmake_object_order_depends_target_StrcpyOutOfClass
+  DEP_FILE = 09-pointersAndStrings\CMakeFiles\StrcpyOutOfClass.dir\StrcpyOutOfClass.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = 09-pointersAndStrings\CMakeFiles\StrcpyOutOfClass.dir
+  OBJECT_FILE_DIR = 09-pointersAndStrings\CMakeFiles\StrcpyOutOfClass.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target StrcpyOutOfClass
+
+
+#############################################
+# Link the executable 09-pointersAndStrings\StrcpyOutOfClass.exe
+
+build 09-pointersAndStrings/StrcpyOutOfClass.exe: C_EXECUTABLE_LINKER__StrcpyOutOfClass_Debug 09-pointersAndStrings/CMakeFiles/StrcpyOutOfClass.dir/StrcpyOutOfClass.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 09-pointersAndStrings\CMakeFiles\StrcpyOutOfClass.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 09-pointersAndStrings\StrcpyOutOfClass.exe
+  TARGET_IMPLIB = 09-pointersAndStrings\libStrcpyOutOfClass.dll.a
+  TARGET_PDB = StrcpyOutOfClass.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -2394,6 +2427,10 @@ build Strcpy: phony 09-pointersAndStrings/Strcpy.exe
 
 build Strcpy.exe: phony 09-pointersAndStrings/Strcpy.exe
 
+build StrcpyOutOfClass: phony 09-pointersAndStrings/StrcpyOutOfClass.exe
+
+build StrcpyOutOfClass.exe: phony 09-pointersAndStrings/StrcpyOutOfClass.exe
+
 build Strlen: phony 09-pointersAndStrings/Strlen.exe
 
 build Strlen.exe: phony 09-pointersAndStrings/Strlen.exe
@@ -2496,7 +2533,7 @@ build 08-pointersAndArrays/all: phony 08-pointersAndArrays/Radius.exe 08-pointer
 #############################################
 # Folder: D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/09-pointersAndStrings
 
-build 09-pointersAndStrings/all: phony 09-pointersAndStrings/StrLiterals.exe 09-pointersAndStrings/Strlen.exe 09-pointersAndStrings/Strcpy.exe 09-pointersAndStrings/Strcmp.exe
+build 09-pointersAndStrings/all: phony 09-pointersAndStrings/StrLiterals.exe 09-pointersAndStrings/Strlen.exe 09-pointersAndStrings/Strcpy.exe 09-pointersAndStrings/Strcmp.exe 09-pointersAndStrings/StrcpyOutOfClass.exe
 
 # =============================================================================
 # Built-in targets

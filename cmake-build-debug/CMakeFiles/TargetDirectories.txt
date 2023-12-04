@@ -74,5 +74,6 @@ D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/09-pointersAndStrings/CMakeFiles
 D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/09-pointersAndStrings/CMakeFiles/Strlen.dir
 D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/09-pointersAndStrings/CMakeFiles/Strcpy.dir
 D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/09-pointersAndStrings/CMakeFiles/Strcmp.dir
+D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/09-pointersAndStrings/CMakeFiles/StrcpyOutOfClass.dir
 D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/09-pointersAndStrings/CMakeFiles/edit_cache.dir
 D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/09-pointersAndStrings/CMakeFiles/rebuild_cache.dir
