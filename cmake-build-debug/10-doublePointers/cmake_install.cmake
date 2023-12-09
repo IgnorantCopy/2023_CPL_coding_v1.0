@@ -1,4 +1,4 @@
-# Install script for directory: D:/codes/2023_CPL_coding_v1.0/00-hello
+# Install script for directory: D:/codes/2023_CPL_coding_v1.0/10-doublePointers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -3,7 +3,7 @@ project(2023_CPL_coding_v1_0 C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_subdirectory(00-Hello)
+add_subdirectory(00-hello)
 add_subdirectory(01-types-io)
 add_subdirectory(02-if-for-array)
 add_subdirectory(03-for-a-while)
@@ -13,3 +13,4 @@ add_subdirectory(06-recursion)
 add_subdirectory(07-dataTypes)
 add_subdirectory(08-pointersAndArrays)
 add_subdirectory(09-pointersAndStrings)
+add_subdirectory(10-doublePointers)

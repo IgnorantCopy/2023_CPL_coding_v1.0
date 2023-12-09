@@ -9,6 +9,6 @@
 	"paths" : 
 	{
 		"build" : "00-Hello",
-		"source" : "00-Hello"
+		"source" : "00-hello"
 	}
 }

@@ -17,7 +17,8 @@
 						7,
 						8,
 						9,
-						10
+						10,
+						11
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -29,18 +30,18 @@
 				},
 				{
 					"build" : "00-Hello",
-					"jsonFile" : "directory-00-Hello-Debug-617072f2330be94ac3c0.json",
+					"jsonFile" : "directory-00-Hello-Debug-a7a32f7328be7066cbde.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.26"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 0,
-					"source" : "00-Hello",
+					"source" : "00-hello",
 					"targetIndexes" : 
 					[
-						18,
-						19
+						19,
+						20
 					]
 				},
 				{
@@ -58,8 +59,8 @@
 						0,
 						1,
 						6,
-						36,
-						44
+						37,
+						47
 					]
 				},
 				{
@@ -74,11 +75,11 @@
 					"source" : "02-if-for-array",
 					"targetIndexes" : 
 					[
-						23,
-						32,
+						24,
 						33,
 						34,
-						35
+						35,
+						36
 					]
 				},
 				{
@@ -96,9 +97,9 @@
 						2,
 						8,
 						9,
-						37,
-						41,
-						45
+						38,
+						43,
+						48
 					]
 				},
 				{
@@ -113,8 +114,8 @@
 					"source" : "04-loops",
 					"targetIndexes" : 
 					[
-						14,
-						27
+						15,
+						28
 					]
 				},
 				{
@@ -130,12 +131,12 @@
 					"targetIndexes" : 
 					[
 						4,
-						15,
-						24,
-						29,
-						38,
-						43,
-						46
+						16,
+						25,
+						30,
+						39,
+						46,
+						49
 					]
 				},
 				{
@@ -151,17 +152,17 @@
 					"targetIndexes" : 
 					[
 						3,
-						11,
 						12,
-						16,
+						13,
 						17,
-						26,
-						28,
-						30,
+						18,
+						27,
+						29,
 						31,
-						40,
-						52,
-						55
+						32,
+						41,
+						55,
+						58
 					]
 				},
 				{
@@ -178,15 +179,15 @@
 					[
 						5,
 						7,
-						10,
-						13,
-						20,
+						11,
+						14,
 						21,
 						22,
-						25,
-						53,
-						54,
-						56
+						23,
+						26,
+						56,
+						57,
+						59
 					]
 				},
 				{
@@ -201,8 +202,8 @@
 					"source" : "08-pointersAndArrays",
 					"targetIndexes" : 
 					[
-						39,
-						42
+						40,
+						44
 					]
 				},
 				{
@@ -217,11 +218,28 @@
 					"source" : "09-pointersAndStrings",
 					"targetIndexes" : 
 					[
-						47,
-						48,
-						49,
 						50,
-						51
+						51,
+						52,
+						53,
+						54
+					]
+				},
+				{
+					"build" : "10-doublePointers",
+					"jsonFile" : "directory-10-doublePointers-Debug-97fed06434d9d2957d00.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "10-doublePointers",
+					"targetIndexes" : 
+					[
+						10,
+						42,
+						45
 					]
 				}
 			],
@@ -241,7 +259,8 @@
 						7,
 						8,
 						9,
-						10
+						10,
+						11
 					],
 					"name" : "2023_CPL_coding_v1_0",
 					"targetIndexes" : 
@@ -302,7 +321,10 @@
 						53,
 						54,
 						55,
-						56
+						56,
+						57,
+						58,
+						59
 					]
 				}
 			],
@@ -379,6 +401,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 11,
+					"id" : "Echo::@2172505df849ee07208e",
+					"jsonFile" : "target-Echo-Debug-7102fb3428ee68cd6ed2.json",
+					"name" : "Echo",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 8,
 					"id" : "ExplicitConversion::@a448271bdcce3331c709",
 					"jsonFile" : "target-ExplicitConversion-Debug-9a9b0b2a70c40c987596.json",
@@ -437,14 +466,14 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "Guess::@0fc9880f443f1eea0558",
-					"jsonFile" : "target-Guess-Debug-0f3c25115c648b57d1b3.json",
+					"jsonFile" : "target-Guess-Debug-314e98c46b7ce31ef4de.json",
 					"name" : "Guess",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "Hello::@0fc9880f443f1eea0558",
-					"jsonFile" : "target-Hello-Debug-97a96795551a7546a7ff.json",
+					"jsonFile" : "target-Hello-Debug-980b876ba808ff0abbce.json",
 					"name" : "Hello",
 					"projectIndex" : 0
 				},
@@ -596,6 +625,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 11,
+					"id" : "Scores::@2172505df849ee07208e",
+					"jsonFile" : "target-Scores-Debug-f4693d281f70ae3490c1.json",
+					"name" : "Scores",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 4,
 					"id" : "SelectionSort::@558f1dc5e588ec9f3867",
 					"jsonFile" : "target-SelectionSort-Debug-86f27f699247acb0dbf1.json",
@@ -607,6 +643,13 @@
 					"id" : "SelectionSortPointer::@f91507419ce9f06aa7fc",
 					"jsonFile" : "target-SelectionSortPointer-Debug-ca4423c87f7580851c80.json",
 					"name" : "SelectionSortPointer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "SelectionSortString::@2172505df849ee07208e",
+					"jsonFile" : "target-SelectionSortString-Debug-d245e42c204a807e21b9.json",
+					"name" : "SelectionSortString",
 					"projectIndex" : 0
 				},
 				{

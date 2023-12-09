@@ -139,3 +139,11 @@ N
 09-pointersAndStrings/Strcmp.c,6\2\6227215389d9ef51071a09238ae0d948cad59a96
 X
 (09-pointersAndStrings/StrcpyOutOfClass.c,6\6\6612c296e543ae4cf6f2f3c3a80e75eb9c6bcbb5
+P
+ 10-doublePointers/CMakeLists.txt,8\b\8b6b72d65018559d2dce116b48ce94ea75bc5166
+X
+(10-doublePointers/SelectionSortStrings.c,8\5\8557cd2135f0a7652f6af9b7aa73918a7f7dc52e
+J
+10-doublePointers/Scores.c,d\b\dbd4d6f3ac34f7cfda10d983d4e0799850e770dd
+H
+10-doublePointers/Echo.c,1\9\195852985cf95b01070e7c773756dedee0473cad

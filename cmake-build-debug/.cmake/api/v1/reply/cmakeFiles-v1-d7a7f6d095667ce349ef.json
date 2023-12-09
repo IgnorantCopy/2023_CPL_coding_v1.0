@@ -102,7 +102,7 @@
 			"path" : "D:/Program Files/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake"
 		},
 		{
-			"path" : "00-Hello/CMakeLists.txt"
+			"path" : "00-hello/CMakeLists.txt"
 		},
 		{
 			"path" : "01-types-io/CMakeLists.txt"
@@ -130,6 +130,9 @@
 		},
 		{
 			"path" : "09-pointersAndStrings/CMakeLists.txt"
+		},
+		{
+			"path" : "10-doublePointers/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",
