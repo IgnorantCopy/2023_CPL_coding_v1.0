@@ -13,6 +13,6 @@ int main() {
         sum += f;
     }
     float product = f * 10;
-    printf("sum  = %.15f\nmul = %.30f\n", sum, product);
+    printf("Sum  = %.15f\nmul = %.30f\n", sum, product);
     return 0;
 }

@@ -1,0 +1,8 @@
+
+9c:S1481"unused variable 'ptr_nums'(„ÛËæüÿÿÿÿ8ñîÚÆ1
+xc:S5276"Yimplicit conversion loses integer precision: 'size_t' (aka 'unsigned long long') to 'int'(Ù¨Ä¼ûÿÿÿÿ8„ÖÚÆ1
+|c:S3135!"]sizeof on array function parameter will return size of 'const int *' instead of 'const int[]'(ÆÒéúÿÿÿÿ8³ÓÚÆ1
+|c:S5350"]Make the type of this variable a pointer-to-const. The current type of "msg_ptr" is "char *".(åëµÎıÿÿÿÿ8‘ñîÚÆ1
+ac:S1854"BValue stored to 'ptr_nums' during its initialization is never read(„ÛËæüÿÿÿÿ8•ñîÚÆ1
+\c:S1854"=Value stored to 'msg' during its initialization is never read(ÚÏÜÆşÿÿÿÿ8•ñîÚÆ1
+`c:S1854"AValue stored to 'msg_ptr' during its initialization is never read(åëµÎıÿÿÿÿ8•ñîÚÆ1

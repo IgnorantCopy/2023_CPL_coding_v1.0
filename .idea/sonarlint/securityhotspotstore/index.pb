@@ -147,3 +147,15 @@ J
 10-doublePointers/Scores.c,d\b\dbd4d6f3ac34f7cfda10d983d4e0799850e770dd
 H
 10-doublePointers/Echo.c,1\9\195852985cf95b01070e7c773756dedee0473cad
+>
+Annotation.txt,e\a\ea68dbb38407ebd93d8898f9229860ebe47d0bec
+]
+-08-pointersAndArrays/ArrayPointerExceptions.c,e\f\ef32ab6377ba27e75114b32355294cfb942ccf8e
+R
+"11-functionPointers/CMakeLists.txt,d\6\d6e899e02fd49f78db2e7c48189579ec7d16c9f0
+R
+"11-functionPointers/BinarySearch.c,b\e\be810a6a29d9852ad0edf1d8ecc6ec7e878d0974
+O
+11-functionPointers/Integrate.c,7\0\706505137d44803c671b14c437a2a6af49a493d3
+J
+11-functionPointers/Sort.c,0\7\07762512ba5200600e27a7b79d12340de297bfb4
