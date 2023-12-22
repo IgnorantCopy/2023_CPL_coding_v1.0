@@ -159,3 +159,13 @@ O
 11-functionPointers/Integrate.c,7\0\706505137d44803c671b14c437a2a6af49a493d3
 J
 11-functionPointers/Sort.c,0\7\07762512ba5200600e27a7b79d12340de297bfb4
+H
+12-struct/CMakeLists.txt,1\3\13faaa64890fcb0d09e8accf6317e47d32300778
+D
+12-struct/Musician.c,6\7\677b65ff7bb9638d2d442e651daa0024bf0d136f
+?
+12-struct/Sds.c,b\3\b3f4f44a33973e5aafff8fc85813560b75a9ca99
+L
+13-LinkedList/CMakeLists.txt,9\4\94eeef7c19a6a49891db2c02377f51dfeadf04d0
+H
+13-LinkedList/Josephus.c,2\8\2835bc701c280ee7aeaeae791b282a509f4f8867

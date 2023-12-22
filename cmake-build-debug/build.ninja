@@ -2512,6 +2512,161 @@ build 11-functionPointers/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build 11-functionPointers/rebuild_cache: phony 11-functionPointers/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/codes/2023_CPL_coding_v1.0/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Musician
+
+
+#############################################
+# Order-only phony target for Musician
+
+build cmake_object_order_depends_target_Musician: phony || 12-struct/CMakeFiles/Musician.dir
+
+build 12-struct/CMakeFiles/Musician.dir/Musician.c.obj: C_COMPILER__Musician_unscanned_Debug D$:/codes/2023_CPL_coding_v1.0/12-struct/Musician.c || cmake_object_order_depends_target_Musician
+  DEP_FILE = 12-struct\CMakeFiles\Musician.dir\Musician.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = 12-struct\CMakeFiles\Musician.dir
+  OBJECT_FILE_DIR = 12-struct\CMakeFiles\Musician.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Musician
+
+
+#############################################
+# Link the executable 12-struct\Musician.exe
+
+build 12-struct/Musician.exe: C_EXECUTABLE_LINKER__Musician_Debug 12-struct/CMakeFiles/Musician.dir/Musician.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 12-struct\CMakeFiles\Musician.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 12-struct\Musician.exe
+  TARGET_IMPLIB = 12-struct\libMusician.dll.a
+  TARGET_PDB = Musician.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Sds
+
+
+#############################################
+# Order-only phony target for Sds
+
+build cmake_object_order_depends_target_Sds: phony || 12-struct/CMakeFiles/Sds.dir
+
+build 12-struct/CMakeFiles/Sds.dir/Sds.c.obj: C_COMPILER__Sds_unscanned_Debug D$:/codes/2023_CPL_coding_v1.0/12-struct/Sds.c || cmake_object_order_depends_target_Sds
+  DEP_FILE = 12-struct\CMakeFiles\Sds.dir\Sds.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = 12-struct\CMakeFiles\Sds.dir
+  OBJECT_FILE_DIR = 12-struct\CMakeFiles\Sds.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Sds
+
+
+#############################################
+# Link the executable 12-struct\Sds.exe
+
+build 12-struct/Sds.exe: C_EXECUTABLE_LINKER__Sds_Debug 12-struct/CMakeFiles/Sds.dir/Sds.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 12-struct\CMakeFiles\Sds.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 12-struct\Sds.exe
+  TARGET_IMPLIB = 12-struct\libSds.dll.a
+  TARGET_PDB = Sds.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build 12-struct/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\codes\2023_CPL_coding_v1.0\cmake-build-debug\12-struct && "D:\Program Files\apps\CLion\ch-0\233.11799.238\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 12-struct/edit_cache: phony 12-struct/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 12-struct/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\codes\2023_CPL_coding_v1.0\cmake-build-debug\12-struct && "D:\Program Files\apps\CLion\ch-0\233.11799.238\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\codes\2023_CPL_coding_v1.0 -BD:\codes\2023_CPL_coding_v1.0\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 12-struct/rebuild_cache: phony 12-struct/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/codes/2023_CPL_coding_v1.0/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Josephus
+
+
+#############################################
+# Order-only phony target for Josephus
+
+build cmake_object_order_depends_target_Josephus: phony || 13-LinkedList/CMakeFiles/Josephus.dir
+
+build 13-LinkedList/CMakeFiles/Josephus.dir/Josephus.c.obj: C_COMPILER__Josephus_unscanned_Debug D$:/codes/2023_CPL_coding_v1.0/13-LinkedList/Josephus.c || cmake_object_order_depends_target_Josephus
+  DEP_FILE = 13-LinkedList\CMakeFiles\Josephus.dir\Josephus.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = 13-LinkedList\CMakeFiles\Josephus.dir
+  OBJECT_FILE_DIR = 13-LinkedList\CMakeFiles\Josephus.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Josephus
+
+
+#############################################
+# Link the executable 13-LinkedList\Josephus.exe
+
+build 13-LinkedList/Josephus.exe: C_EXECUTABLE_LINKER__Josephus_Debug 13-LinkedList/CMakeFiles/Josephus.dir/Josephus.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 13-LinkedList\CMakeFiles\Josephus.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 13-LinkedList\Josephus.exe
+  TARGET_IMPLIB = 13-LinkedList\libJosephus.dll.a
+  TARGET_PDB = Josephus.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build 13-LinkedList/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\codes\2023_CPL_coding_v1.0\cmake-build-debug\13-LinkedList && "D:\Program Files\apps\CLion\ch-0\233.11799.238\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 13-LinkedList/edit_cache: phony 13-LinkedList/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 13-LinkedList/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\codes\2023_CPL_coding_v1.0\cmake-build-debug\13-LinkedList && "D:\Program Files\apps\CLion\ch-0\233.11799.238\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\codes\2023_CPL_coding_v1.0 -BD:\codes\2023_CPL_coding_v1.0\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 13-LinkedList/rebuild_cache: phony 13-LinkedList/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build AdminScanf: phony 01-types-io/AdminScanf.exe
@@ -2622,6 +2777,10 @@ build Integrate: phony 11-functionPointers/Integrate.exe
 
 build Integrate.exe: phony 11-functionPointers/Integrate.exe
 
+build Josephus: phony 13-LinkedList/Josephus.exe
+
+build Josephus.exe: phony 13-LinkedList/Josephus.exe
+
 build LeapYear: phony 02-if-for-array/LeapYear.exe
 
 build LeapYear.exe: phony 02-if-for-array/LeapYear.exe
@@ -2678,6 +2837,10 @@ build Mol: phony 01-types-io/Mol.exe
 
 build Mol.exe: phony 01-types-io/Mol.exe
 
+build Musician: phony 12-struct/Musician.exe
+
+build Musician.exe: phony 12-struct/Musician.exe
+
 build Primes: phony 03-for-a-while/Primes.exe
 
 build Primes.exe: phony 03-for-a-while/Primes.exe
@@ -2697,6 +2860,10 @@ build Rand.exe: phony 06-recursion/Rand.exe
 build Scores: phony 10-doublePointers/Scores.exe
 
 build Scores.exe: phony 10-doublePointers/Scores.exe
+
+build Sds: phony 12-struct/Sds.exe
+
+build Sds.exe: phony 12-struct/Sds.exe
 
 build SelectionSort: phony 03-for-a-while/SelectionSort.exe
 
@@ -2778,7 +2945,7 @@ build Unsigned.exe: phony 07-dataTypes/Unsigned.exe
 #############################################
 # Folder: D:/codes/2023_CPL_coding_v1.0/cmake-build-debug
 
-build all: phony 00-Hello/all 01-types-io/all 02-if-for-array/all 03-for-a-while/all 04-loops/all 05-function/all 06-recursion/all 07-dataTypes/all 08-pointersAndArrays/all 09-pointersAndStrings/all 10-doublePointers/all 11-functionPointers/all
+build all: phony 00-Hello/all 01-types-io/all 02-if-for-array/all 03-for-a-while/all 04-loops/all 05-function/all 06-recursion/all 07-dataTypes/all 08-pointersAndArrays/all 09-pointersAndStrings/all 10-doublePointers/all 11-functionPointers/all 12-struct/all 13-LinkedList/all
 
 # =============================================================================
 
@@ -2865,20 +3032,34 @@ build 10-doublePointers/all: phony 10-doublePointers/Echo.exe 10-doublePointers/
 build 11-functionPointers/all: phony 11-functionPointers/Integrate.exe 11-functionPointers/BSearch.exe 11-functionPointers/Sort.exe
 
 # =============================================================================
+
+#############################################
+# Folder: D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/12-struct
+
+build 12-struct/all: phony 12-struct/Musician.exe 12-struct/Sds.exe
+
+# =============================================================================
+
+#############################################
+# Folder: D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/13-LinkedList
+
+build 13-LinkedList/all: phony 13-LinkedList/Josephus.exe
+
+# =============================================================================
 # Built-in targets
 
 
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.27.0/CMakeCCompiler.cmake CMakeFiles/3.27.0/CMakeRCCompiler.cmake CMakeFiles/3.27.0/CMakeSystem.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake D$:/codes/2023_CPL_coding_v1.0/00-hello/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/01-types-io/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/02-if-for-array/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/03-for-a-while/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/04-loops/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/05-function/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/06-recursion/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/07-dataTypes/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/08-pointersAndArrays/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/09-pointersAndStrings/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/10-doublePointers/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/11-functionPointers/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.27.0/CMakeCCompiler.cmake CMakeFiles/3.27.0/CMakeRCCompiler.cmake CMakeFiles/3.27.0/CMakeSystem.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake D$:/codes/2023_CPL_coding_v1.0/00-hello/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/01-types-io/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/02-if-for-array/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/03-for-a-while/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/04-loops/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/05-function/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/06-recursion/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/07-dataTypes/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/08-pointersAndArrays/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/09-pointersAndStrings/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/10-doublePointers/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/11-functionPointers/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/12-struct/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/13-LinkedList/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.27.0/CMakeCCompiler.cmake CMakeFiles/3.27.0/CMakeRCCompiler.cmake CMakeFiles/3.27.0/CMakeSystem.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake D$:/codes/2023_CPL_coding_v1.0/00-hello/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/01-types-io/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/02-if-for-array/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/03-for-a-while/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/04-loops/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/05-function/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/06-recursion/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/07-dataTypes/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/08-pointersAndArrays/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/09-pointersAndStrings/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/10-doublePointers/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/11-functionPointers/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/CMakeLists.txt: phony
+build CMakeCache.txt CMakeFiles/3.27.0/CMakeCCompiler.cmake CMakeFiles/3.27.0/CMakeRCCompiler.cmake CMakeFiles/3.27.0/CMakeSystem.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake D$:/Program$ Files/apps/CLion/ch-0/233.11799.238/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake D$:/codes/2023_CPL_coding_v1.0/00-hello/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/01-types-io/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/02-if-for-array/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/03-for-a-while/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/04-loops/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/05-function/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/06-recursion/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/07-dataTypes/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/08-pointersAndArrays/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/09-pointersAndStrings/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/10-doublePointers/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/11-functionPointers/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/12-struct/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/13-LinkedList/CMakeLists.txt D$:/codes/2023_CPL_coding_v1.0/CMakeLists.txt: phony
 
 
 #############################################

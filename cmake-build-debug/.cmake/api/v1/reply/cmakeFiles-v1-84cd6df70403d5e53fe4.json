@@ -141,6 +141,12 @@
 		},
 		{
 			"path" : "11-functionPointers/CMakeLists.txt"
+		},
+		{
+			"path" : "12-struct/CMakeLists.txt"
+		},
+		{
+			"path" : "13-LinkedList/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

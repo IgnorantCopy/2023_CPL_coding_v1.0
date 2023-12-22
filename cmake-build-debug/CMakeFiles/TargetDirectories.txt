@@ -88,3 +88,10 @@ D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/11-functionPointers/CMakeFiles/B
 D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/11-functionPointers/CMakeFiles/Sort.dir
 D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/11-functionPointers/CMakeFiles/edit_cache.dir
 D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/11-functionPointers/CMakeFiles/rebuild_cache.dir
+D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/12-struct/CMakeFiles/Musician.dir
+D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/12-struct/CMakeFiles/Sds.dir
+D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/12-struct/CMakeFiles/edit_cache.dir
+D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/12-struct/CMakeFiles/rebuild_cache.dir
+D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/13-LinkedList/CMakeFiles/Josephus.dir
+D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/13-LinkedList/CMakeFiles/edit_cache.dir
+D:/codes/2023_CPL_coding_v1.0/cmake-build-debug/13-LinkedList/CMakeFiles/rebuild_cache.dir
