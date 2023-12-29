@@ -169,3 +169,7 @@ L
 13-LinkedList/CMakeLists.txt,9\4\94eeef7c19a6a49891db2c02377f51dfeadf04d0
 H
 13-LinkedList/Josephus.c,2\8\2835bc701c280ee7aeaeae791b282a509f4f8867
+E
+13-LinkedList/ll/ll.h,5\8\58e3b03a5498640f32e5df83d3910b8c5e99e422
+E
+13-LinkedList/ll/ll.c,b\9\b99dd5206b6f652f71c08e2f2de81b67e7ad34f0

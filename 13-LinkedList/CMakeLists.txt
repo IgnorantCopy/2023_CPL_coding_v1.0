@@ -1,1 +1,1 @@
-add_executable(Josephus Josephus.c)
+add_executable(Josephus Josephus.c ll/ll.c)

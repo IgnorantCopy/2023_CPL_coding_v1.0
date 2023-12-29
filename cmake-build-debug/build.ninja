@@ -2625,6 +2625,12 @@ build 13-LinkedList/CMakeFiles/Josephus.dir/Josephus.c.obj: C_COMPILER__Josephus
   OBJECT_DIR = 13-LinkedList\CMakeFiles\Josephus.dir
   OBJECT_FILE_DIR = 13-LinkedList\CMakeFiles\Josephus.dir
 
+build 13-LinkedList/CMakeFiles/Josephus.dir/ll/ll.c.obj: C_COMPILER__Josephus_unscanned_Debug D$:/codes/2023_CPL_coding_v1.0/13-LinkedList/ll/ll.c || cmake_object_order_depends_target_Josephus
+  DEP_FILE = 13-LinkedList\CMakeFiles\Josephus.dir\ll\ll.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = 13-LinkedList\CMakeFiles\Josephus.dir
+  OBJECT_FILE_DIR = 13-LinkedList\CMakeFiles\Josephus.dir\ll
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Josephus
@@ -2633,7 +2639,7 @@ build 13-LinkedList/CMakeFiles/Josephus.dir/Josephus.c.obj: C_COMPILER__Josephus
 #############################################
 # Link the executable 13-LinkedList\Josephus.exe
 
-build 13-LinkedList/Josephus.exe: C_EXECUTABLE_LINKER__Josephus_Debug 13-LinkedList/CMakeFiles/Josephus.dir/Josephus.c.obj
+build 13-LinkedList/Josephus.exe: C_EXECUTABLE_LINKER__Josephus_Debug 13-LinkedList/CMakeFiles/Josephus.dir/Josephus.c.obj 13-LinkedList/CMakeFiles/Josephus.dir/ll/ll.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = 13-LinkedList\CMakeFiles\Josephus.dir

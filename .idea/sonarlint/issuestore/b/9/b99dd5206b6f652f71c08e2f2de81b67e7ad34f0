@@ -1,0 +1,12 @@
+
+sc:S1186^"YAdd a nested comment explaining why this method is empty, or complete the implementation.(êŒ«ı8ÑˆÃ¤Ë1
+=c:S1172^"#Remove the unused parameter "list".(êŒ«ı8ÑˆÃ¤Ë1
+=c:S1172^"#Remove the unused parameter "prev".(êŒ«ı8ÒˆÃ¤Ë1
+>c:S1172^"$Remove the unused parameter "index".(êŒ«ı8ÒˆÃ¤Ë1
+c:S995^"hMake the type of this parameter a pointer-to-const. The current type of "list" is "struct LinkedList *".(êŒ«ı8ÒˆÃ¤Ë1
+{c:S995^"bMake the type of this parameter a pointer-to-const. The current type of "prev" is "struct Node *".(êŒ«ı8ÒˆÃ¤Ë1
+xc:S1186b"YAdd a nested comment explaining why this method is empty, or complete the implementation.(ğˆè®øÿÿÿÿ8ÒˆÃ¤Ë1
+Gc:S935d")non-void function does not return a value(æÀö€øÿÿÿÿ8ÒˆÃ¤Ë1
+Bc:S1172b"#Remove the unused parameter "list".(ğˆè®øÿÿÿÿ8ÒˆÃ¤Ë1
+Cc:S1172b"$Remove the unused parameter "index".(ğˆè®øÿÿÿÿ8ÒˆÃ¤Ë1
+†c:S995b"hMake the type of this parameter a pointer-to-const. The current type of "list" is "struct LinkedList *".(ğˆè®øÿÿÿÿ8ÒˆÃ¤Ë1
